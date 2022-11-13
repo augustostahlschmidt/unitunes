@@ -1,0 +1,16 @@
+@startuml
+Title Baixar Mídia
+
+actor Acadêmico as academico
+academico --> GerenciadorMidia: baixarMidia()
+activate GerenciadorMidia
+GerenciadorMidia --> MidiaCRUD: baixarMidia()
+database Midias
+activate MidiaCRUD
+MidiaCRUD --> Midias: baixar()
+Midias --> MidiaCRUD: Mídia
+MidiaCRUD --> GerenciadorMidia: Mídia
+deactivate MidiaCRUD
+GerenciadorMidia --> academico: Mídia
+
+@enduml

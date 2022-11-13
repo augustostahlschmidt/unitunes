@@ -1,0 +1,21 @@
+@startuml
+Title Excluir Mídia
+
+actor Administrador as administrador
+administrador --> ExcluidorMidias: excluirMidia()
+activate ExcluidorMidias
+ExcluidorMidias --> MidiaCRUD: excluirMidia()
+database Midias
+activate MidiaCRUD
+MidiaCRUD --> Midias: deletar()
+Midias --> MidiaCRUD: resposta
+MidiaCRUD --> ExcluidorMidias: resposta
+deactivate MidiaCRUD
+ExcluidorMidias --> NotificadorExclusaoMidia: notificar()
+ExcluidorMidias --> administrador: resposta
+deactivate ExcluidorMidias
+activate NotificadorExclusaoMidia
+actor CriadorMidia as criador 
+NotificadorExclusaoMidia --> criador: notificação enviada
+
+@enduml

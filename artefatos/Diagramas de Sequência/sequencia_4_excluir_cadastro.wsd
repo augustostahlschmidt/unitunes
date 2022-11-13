@@ -1,0 +1,17 @@
+@startuml
+Title Excluir Cadastro
+
+actor Administrador as administrador
+administrador --> ExcluidorCadastros: excluirCadastro()
+activate ExcluidorCadastros
+ExcluidorCadastros --> CadastrosCRUD: excluirCadastro()
+database Cadastros
+activate CadastrosCRUD
+CadastrosCRUD --> Cadastros: deletar()
+Cadastros --> CadastrosCRUD: resposta
+CadastrosCRUD --> ExcluidorCadastros: resposta
+deactivate CadastrosCRUD
+ExcluidorCadastros --> administrador
+deactivate ExcluidorCadastros
+
+@enduml

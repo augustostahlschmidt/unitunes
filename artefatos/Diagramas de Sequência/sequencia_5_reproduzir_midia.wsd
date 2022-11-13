@@ -1,0 +1,16 @@
+@startuml
+Title Reproduzir Mídia
+
+actor Acadêmico as academico
+academico --> GerenciadorMidia: reproduzirMidia()
+activate GerenciadorMidia
+GerenciadorMidia --> MidiaCRUD: reproduzirMidia()
+database Midias
+activate MidiaCRUD
+MidiaCRUD --> Midias: reproduzir()
+Midias --> MidiaCRUD: Stream
+MidiaCRUD --> GerenciadorMidia: Stream
+deactivate MidiaCRUD
+GerenciadorMidia --> academico: Stream
+
+@enduml

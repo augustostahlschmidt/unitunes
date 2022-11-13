@@ -1,0 +1,13 @@
+@startuml
+Title Adicionar Créditos
+
+actor Acadêmico as academico
+academico --> GerenciadorCreditos: adicionarCredito(valor)
+activate GerenciadorCreditos
+boundary GatewayPagamento as pagamento
+GerenciadorCreditos --> pagamento: realizarPagamento()
+pagamento --> GerenciadorCreditos: atualizarCreditos()
+GerenciadorCreditos --> academico
+deactivate GerenciadorCreditos
+
+@enduml
