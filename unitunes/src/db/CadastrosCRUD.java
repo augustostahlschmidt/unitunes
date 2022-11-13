@@ -3,6 +3,7 @@ package db;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.util.ArrayList;
 
 import model.Cadastro;
 
@@ -82,6 +83,118 @@ public class CadastrosCRUD {
 			return cadastro;
 		}
 	}
+	
+	@SuppressWarnings("finally")
+	public Cadastro lerCadastro(String email) {
+		DatabaseConnection db = new DatabaseConnection();
+		Connection connection = db.getConnection();
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		Cadastro cadastro = new Cadastro();
+		
+		String sql = "SELECT * FROM cadastros WHERE email = ?";
+		try {
+			ps = connection.prepareStatement(sql, 
+					ResultSet.TYPE_SCROLL_INSENSITIVE, 
+                    ResultSet.CONCUR_UPDATABLE);
+			ps.setString(1, email);
+			rs = ps.executeQuery();
+			rs.first();
+
+			rs.last();
+			if (rs.getRow() < 1){
+			    // process case with no results
+				cadastro.setIdCadastro(-1);
+				return cadastro;
+				
+			} else{
+			    // process case with results
+				cadastro.setEmail(rs.getString("email"));
+				cadastro.setIdCadastro(rs.getInt("idCadastro"));
+				cadastro.setIsAcademico(rs.getInt("academico"));
+				cadastro.setNome(rs.getString("nome"));
+				cadastro.setSenha(rs.getString("senha"));
+				cadastro.setUsuario(rs.getString("usuario"));
+				rs.beforeFirst();
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+		    if (rs != null) {
+		        try {
+		            rs.close();
+		        } catch (Exception e) {  }
+		    }
+		    if (ps != null) {
+		        try {
+		            ps.close();
+		        } catch (Exception e) { }
+		    }
+		    if (connection != null) {
+		        try {
+		        	connection.close();
+		        } catch (Exception e) { }
+		    }
+			return cadastro;
+		}
+	}
+
+	@SuppressWarnings("finally")
+	public Cadastro lerCadastro(int id) {
+		DatabaseConnection db = new DatabaseConnection();
+		Connection connection = db.getConnection();
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		Cadastro cadastro = new Cadastro();
+		
+		String sql = "SELECT * FROM cadastros WHERE idCadastro = ?";
+		try {
+			ps = connection.prepareStatement(sql, 
+					ResultSet.TYPE_SCROLL_INSENSITIVE, 
+                    ResultSet.CONCUR_UPDATABLE);
+			ps.setInt(1, id);
+			rs = ps.executeQuery();
+			rs.first();
+
+			rs.last();
+			if (rs.getRow() < 1){
+			    // process case with no results
+				cadastro.setIdCadastro(-1);
+				return cadastro;
+				
+			} else{
+			    // process case with results
+				cadastro.setEmail(rs.getString("email"));
+				cadastro.setIdCadastro(rs.getInt("idCadastro"));
+				cadastro.setIsAcademico(rs.getInt("academico"));
+				cadastro.setNome(rs.getString("nome"));
+				cadastro.setSenha(rs.getString("senha"));
+				cadastro.setUsuario(rs.getString("usuario"));
+				rs.beforeFirst();
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+		    if (rs != null) {
+		        try {
+		            rs.close();
+		        } catch (Exception e) {  }
+		    }
+		    if (ps != null) {
+		        try {
+		            ps.close();
+		        } catch (Exception e) { }
+		    }
+		    if (connection != null) {
+		        try {
+		        	connection.close();
+		        } catch (Exception e) { }
+		    }
+			return cadastro;
+		}
+	}
 
 	@SuppressWarnings("finally")
 	public void adicionarCadastro(String email, String senha, String usuario, String nome, int academico) {
@@ -126,4 +239,93 @@ public class CadastrosCRUD {
 		    }
 		}
 	}	
+	
+	@SuppressWarnings("finally")
+	public ArrayList<Cadastro> lerTodosCadastros(){
+		DatabaseConnection db = new DatabaseConnection();
+		Connection connection = db.getConnection();
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		Cadastro cadastro;
+		ArrayList<Cadastro> cadastros = new ArrayList<>();
+		
+		String sql = "SELECT * FROM cadastros";
+		try {
+			ps = connection.prepareStatement(sql, 
+					ResultSet.TYPE_SCROLL_INSENSITIVE, 
+                    ResultSet.CONCUR_UPDATABLE);
+			rs = ps.executeQuery();
+			
+            while(rs.next())
+            {
+            	cadastro = new Cadastro();
+				cadastro.setEmail(rs.getString("email"));
+				cadastro.setIdCadastro(rs.getInt("idCadastro"));
+				cadastro.setIsAcademico(rs.getInt("academico"));
+				cadastro.setNome(rs.getString("nome"));
+				cadastro.setSenha(rs.getString("senha"));
+				cadastro.setUsuario(rs.getString("usuario"));
+				cadastros.add(cadastro);
+            }
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+		    if (rs != null) {
+		        try {
+		            rs.close();
+		        } catch (Exception e) {  }
+		    }
+		    if (ps != null) {
+		        try {
+		            ps.close();
+		        } catch (Exception e) { }
+		    }
+		    if (connection != null) {
+		        try {
+		        	connection.close();
+		        } catch (Exception e) { }
+		    }
+		    
+			return cadastros;
+		}		
+	}
+
+	public void excluirCadastro(String email) {
+		DatabaseConnection db = new DatabaseConnection();
+		Connection connection = db.getConnection();
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		
+		String sql = "DELETE FROM cadastros WHERE email = ?";
+		
+		try {
+			ps = connection.prepareStatement(sql, 
+					ResultSet.TYPE_SCROLL_INSENSITIVE, 
+                    ResultSet.CONCUR_UPDATABLE);
+			
+			ps.setString(1, email);
+			ps.execute();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+		    if (rs != null) {
+		        try {
+		            rs.close();
+		        } catch (Exception e) {  }
+		    }
+		    if (ps != null) {
+		        try {
+		            ps.close();
+		        } catch (Exception e) { }
+		    }
+		    if (connection != null) {
+		        try {
+		        	connection.close();
+		        } catch (Exception e) { }
+		    }
+		}	
+	}
+	
 }

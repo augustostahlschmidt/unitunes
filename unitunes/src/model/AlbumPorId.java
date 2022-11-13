@@ -3,17 +3,17 @@ package model;
 import java.sql.Date;
 import java.util.ArrayList;
 
-import db.IdGenerator;
-
-public class Album {
+public class AlbumPorId {
 	private int idAlbum;
 	private int criador;
 	private int qtdeMidias;
 	private String nome;
-	private int idMidia;
 	private Date data;
+	private ArrayList<Integer> midias;
+	String midiasEmLista = "";
 	
-	public Album() {	
+	public AlbumPorId() {	
+		this.midias = new ArrayList<>();
 	}
 
 	public int getIdAlbum() {
@@ -39,13 +39,13 @@ public class Album {
 	public void setQtdeMidias(int qtdeMidias) {
 		this.qtdeMidias = qtdeMidias;
 	}
-
-	public int getIdMidia() {
-		return idMidia;
+	
+	public ArrayList<Integer> getMidias(){
+		return this.midias;
 	}
-
-	public void setIdMidia(int idMidia) {
-		this.idMidia = idMidia;
+	
+	public void addMidia(int idMidia) {
+		this.midias.add(idMidia);
 	}
 
 	public String getNome() {

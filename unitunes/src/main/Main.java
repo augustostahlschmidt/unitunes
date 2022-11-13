@@ -1,6 +1,6 @@
-package app;
+package main;
 
-import unitunes.UniTunes;
+import view.UniTunes;
 
 public class Main {
 	public static void main(String[] args) {
