@@ -38,4 +38,8 @@ public class GerenciadorCarteiras {
 		
 		return false;
 	}
+
+	public void criarCarteira(int idCadastro) {
+		this.crud.criarCarteira(idCadastro);
+	}
 }	

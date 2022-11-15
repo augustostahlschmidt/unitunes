@@ -101,5 +101,43 @@ public class CarteirasCRUD {
 			return carteira;
 		}
 	}
-	
+
+	public void criarCarteira(int idCadastro) {
+		DatabaseConnection db = new DatabaseConnection();
+		Connection connection = db.getConnection();
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		
+		String sql = "INSERT INTO carteiras (idCarteira, dono) VALUES (?, ?)";
+		
+		try {
+			ps = connection.prepareStatement(sql, 
+					ResultSet.TYPE_SCROLL_INSENSITIVE, 
+                    ResultSet.CONCUR_UPDATABLE);
+			
+			ps.setInt( 1, new IdGenerator().getNextCarteiraId() );
+			ps.setInt(2, idCadastro);
+			
+			ps.execute();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+		    if (rs != null) {
+		        try {
+		            rs.close();
+		        } catch (Exception e) {  }
+		    }
+		    if (ps != null) {
+		        try {
+		            ps.close();
+		        } catch (Exception e) { }
+		    }
+		    if (connection != null) {
+		        try {
+		        	connection.close();
+		        } catch (Exception e) { }
+		    }
+		}
+	}
 }

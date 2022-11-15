@@ -178,6 +178,7 @@ public class GerenciadorAlbuns {
 				album.setNome(a.getNome());
 				album.setQtdeMidias(a.getQtdeMidias());
 				album.addMidia(a.getIdMidia());					
+				first = false;
 			} else {
 				album.addMidia(a.getIdMidia());					
 			}

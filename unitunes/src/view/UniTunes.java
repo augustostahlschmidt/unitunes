@@ -46,7 +46,7 @@ public class UniTunes {
 		this.gerenciadorAlbuns = new GerenciadorAlbuns();
 	}
 	
-	public void start() {
+	public void run() {
 		System.out.println("\r\n"
 				+ "              _ _______                    \r\n"
 				+ "             (_)__   __|                   \r\n"
@@ -86,6 +86,9 @@ public class UniTunes {
 			else if(option == 2)
 				signup();
 		}
+		
+		System.out.println();
+		System.out.println("Encerrando aplicativo...");
 	}
 
 	private void eventLoop() {		
@@ -667,7 +670,7 @@ public class UniTunes {
 				pagamento = keyboard.nextInt();
 				keyboard.nextLine();	
 				
-				System.out.println("\nRedirecioanndo para o gateway de pagamento...");
+				System.out.println("\nRedirecionando para o gateway de pagamento...");
 				sleep(1);
 				System.out.println("\nPagamento confirmado!");
 				
@@ -711,6 +714,7 @@ public class UniTunes {
 		String username = keyboard.nextLine();		
 		
 		this.gerenciadorCadastros.criarCadastro(email, password, username, nome, -1);
+		this.gerenciadorCarteiras.criarCarteira(this.cadastroLogado.getIdCadastro());
 		
 		System.out.println("\nLogue para confirmar os dados: ");
 	}
@@ -742,10 +746,5 @@ public class UniTunes {
 			}			
 		}
 		
-	}
-	
-	public void close() {
-		System.out.println();
-		System.out.println("Encerrando aplicativo...");
 	}
 }
