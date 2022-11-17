@@ -11,4 +11,8 @@ Alunos:
 
 ![unitunes](https://github.com/augustostahlschmidt/unitunes/blob/main/img/demo.jpg)
 
+## Diagrama de classes final
+
+![Diagrama de Classes](https://github.com/augustostahlschmidt/unitunes/blob/main/img/unitunes_class_diagram.svg)
+
 
