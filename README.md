@@ -11,10 +11,6 @@ Alunos:
 
 ![unitunes](https://github.com/augustostahlschmidt/unitunes/blob/main/img/demo.jpg)
 
-## Diagrama de classes final
-
-![Diagrama de Classes](https://github.com/augustostahlschmidt/unitunes/blob/main/img/unitunes_class_diagram.svg)
-
 ## Relatórios do SDMetrics
 
 Comparação entre diagrama de classes do GA e do GB: [[txt]](https://github.com/augustostahlschmidt/unitunes/blob/main/artefatos/SDMetrics/metric_deltas.txt) [[html]](https://htmlpreview.github.io/?https://github.com/augustostahlschmidt/unitunes/blob/main/artefatos/SDMetrics/metric_deltas.html)
@@ -28,6 +24,10 @@ Estatísticas descritivas do design do GB: [[txt]](https://github.com/augustosta
 Gráficos (histogramas) das métricas do design do GB: [[html]](https://htmlpreview.github.io/?https://github.com/augustostahlschmidt/unitunes/blob/main/artefatos/SDMetrics/metrics_histograms/metrics_histograms.html)
 
 Gráficos (kiviat) das classes do design do GB: [[html]](https://htmlpreview.github.io/?https://github.com/augustostahlschmidt/unitunes/blob/main/artefatos/SDMetrics/kiviat_graphs/kiviat_graphs.html)
+
+## Diagrama de classes final
+
+![Diagrama de Classes](https://github.com/augustostahlschmidt/unitunes/blob/main/img/unitunes_class_diagram.svg)
 
 
 
