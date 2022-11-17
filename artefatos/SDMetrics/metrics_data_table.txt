@@ -1,0 +1,95 @@
+Class
+
+Name	NumAttr	NumOps	NumPubOps	Setters	Getters	Nesting	IFImpl	NOC	NumDesc	NumAnc	DIT	CLD	OpsInh	AttrInh	Dep_Out	Dep_In	NumAssEl_ssc	NumAssEl_sb	NumAssEl_nsb	EC_Attr	IC_Attr	EC_Par	IC_Par	Connectors	InstSpec	LLInst	MsgSent	MsgRecv	MsgSelf	Diags
+unitunes_class_gb.ExcluidorCadastros	2	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	1	1	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.CarteiraCreditos	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.Album	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.Midia	9	0	0	0	0	0	0	4	4	0	0	1	0	0	0	0	2	2	0	0	0	8	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.Academico	6	0	0	0	0	0	0	1	1	0	0	1	0	0	0	0	7	7	0	0	6	2	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.Administrador	3	0	0	0	0	0	0	0	0	1	1	0	0	6	0	0	3	3	0	0	3	1	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.ComprovanteVenda	5	5	5	0	5	0	0	0	0	0	0	0	0	0	0	0	2	2	0	0	0	1	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.Favoritos	1	4	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.ExcluidorMidias	3	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	2	2	0	1	2	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.Musica	1	0	0	0	0	0	0	0	0	1	1	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.Livro	1	0	0	0	0	0	0	0	0	1	1	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.Video	1	0	0	0	0	0	0	0	0	1	1	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.Podcast	1	0	0	0	0	0	0	0	0	1	1	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.Minutos	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.String	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	0	46	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.Usuario	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.BuscadorMidia	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.ReprodutorMidia	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.GerenciadorMidia	4	5	5	0	0	0	0	0	0	0	0	0	0	0	0	0	4	4	0	1	3	0	4	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.CompradorMidia	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.BaixadorMidia	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.GerenciadorFavoritos	2	4	4	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	2	1	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.GerenciadorCreditos	4	3	3	0	0	0	0	0	0	0	0	0	0	0	0	0	2	2	0	1	1	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.GerenciadorCompras	2	4	4	0	0	0	0	0	0	0	0	0	0	0	0	0	3	3	0	1	1	0	3	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.DashboardVendas	2	2	2	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	2	1	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.ValidadorAcessoMidia	0	2	2	0	2	0	0	0	0	0	0	0	0	0	0	0	1	1	0	1	0	0	2	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.GerenciadorCadastros	5	3	3	0	0	0	0	0	0	0	0	0	0	0	0	0	3	3	0	0	4	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.ValidadorSenha	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.ValidadorEmail	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.ValidadorNomes	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.VisualizadorAlbuns	2	3	3	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	1	1	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.db.VendasCRUD	0	4	4	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	3	4	0	0	3	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.db.CadastrosCRUD	0	7	7	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	2	4	0	0	12	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.db.AlbunsCRUD	0	3	3	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	2	3	0	0	3	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.db.MidiasCRUD	0	5	5	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	2	4	0	0	6	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.db.FavoritosCRUD	0	4	4	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	2	2	0	0	1	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.db.CarteirasCRUD	0	3	3	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	2	1	0	0	1	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.db.DatabaseConnection	0	2	2	0	1	0	0	0	0	0	0	0	0	0	0	0	6	6	0	0	0	0	1	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.db.idGenerator	0	5	5	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.NotificadorExclusaoMidia	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	1	0	0	1	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.CriadorMidia	3	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	3	3	0	1	2	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.ValidadorValorMidia	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.CriadorAlbum	3	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	3	3	0	1	2	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.ValidadorAlbum	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.GerenciadorCadastroAdmin	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.model.Cadastro	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.model	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.view.UniTunes	11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	0	8	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.controller.DashboardVendas	1	3	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	0	5	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.controller.GerenciadorAlbuns	1	5	5	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	5	1	1	0	6	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.controller.GerenciadorCadastros	1	7	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	1	1	0	11	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.controller.GerenciadorCarteiras	1	5	5	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	2	2	1	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.controller.GerenciadorFavoritos	1	4	4	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	0	1	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.controller.GerenciadorMidias	1	9	9	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	4	1	1	0	11	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.controller.GerenciadorVendas	2	3	3	0	1	0	0	0	0	0	0	0	0	0	0	0	1	1	5	1	2	0	4	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.model.Album	6	12	12	6	6	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	2	0	4	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.model.AlbumPorId	6	11	11	5	4	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	3	0	3	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.model.Midia	12	22	22	11	10	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	2	1	10	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.model.Carteira	3	4	4	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.model.Cadastro	6	12	12	6	5	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	1	2	7	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.model.venda	7	14	14	7	6	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	2	0	3	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.model.Favorito	2	4	4	2	2	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.VendasCRUS	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.ArrayList.parameter0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.ArrayList	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.Venda	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.date	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.Date	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	15	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.AlbunsCRUD	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.Integer	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.AlbumPorId	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.Cadastro	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.Favorito	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.Scanner	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0.0	0.0	0	0
+unitunes_class_gb.Connection	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0.0	0.0	0	0
+
+
+Package
+
+Name	NumCls	NumCls_tc	NumOpsCls	NumInterf	R	H	Ca	Ce	I	A	D	DN	Nesting	ConnComp	Dep_Out	Dep_In	DepPack	MsgSent_Outside	MsgRecv_Outside	MsgSent_within	Diags
+unitunes_class_gb.db	8	8	33	0	12	1.625	24	23	0.4893617	0.0	-0.3610759	0.5106383	0	2	0	0	2	0	0	0	0
+unitunes_class_gb.view	1	1	0	0	0	1.0	11	15	0.5769231	0.0	-0.29916066	0.42307693	0	1	0	0	2	0	0	0	0
+unitunes_class_gb.controller	7	7	36	0	3	0.5714286	15	26	0.63414633	0.0	-0.2586977	0.36585367	0	6	0	0	3	0	0	0	0
+unitunes_class_gb.model	7	7	79	0	0	0.14285715	14	17	0.5483871	0.0	-0.31933865	0.4516129	0	7	0	0	3	0	0	0	0
+unitunes_class_gb.PrimitiveTypes	0	0	0	0	0	0.0	0	0	1.0	1.0	0.707107	1.0	0	0	0	0	0	0	0	0	0

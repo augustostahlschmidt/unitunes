@@ -1,0 +1,574 @@
+Class
+
+Name	Rule	Value	Category	Severity	Description
+unitunes_class_gb.ExcluidorCadastros	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.CarteiraCreditos	Unused		Completeness	1-high	The class is not used anywhere.
+unitunes_class_gb.Album	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.Midia	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.Midia	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.Academico	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.Academico	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.Administrador	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.Administrador	AttrNameOvr		Naming	2-med	The class defines a property of the same name as an inherited attribute.
+unitunes_class_gb.Administrador	AttrNameOvr		Naming	2-med	The class defines a property of the same name as an inherited attribute.
+unitunes_class_gb.Administrador	AttrNameOvr		Naming	2-med	The class defines a property of the same name as an inherited attribute.
+unitunes_class_gb.Administrador	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.ComprovanteVenda	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.ComprovanteVenda	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.Favoritos	Unused		Completeness	1-high	The class is not used anywhere.
+unitunes_class_gb.ExcluidorMidias	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.ExcluidorMidias	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.Musica	Unused		Completeness	1-high	The class is not used anywhere.
+unitunes_class_gb.Livro	Unused		Completeness	1-high	The class is not used anywhere.
+unitunes_class_gb.Video	Unused		Completeness	1-high	The class is not used anywhere.
+unitunes_class_gb.Podcast	Unused		Completeness	1-high	The class is not used anywhere.
+unitunes_class_gb.Minutos	Unused		Completeness	1-high	The class is not used anywhere.
+unitunes_class_gb.Usuario	Unused		Completeness	1-high	The class is not used anywhere.
+unitunes_class_gb.BuscadorMidia	Unused		Completeness	1-high	The class is not used anywhere.
+unitunes_class_gb.ReprodutorMidia	Unused		Completeness	1-high	The class is not used anywhere.
+unitunes_class_gb.GerenciadorMidia	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.GerenciadorMidia	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.CompradorMidia	Unused		Completeness	1-high	The class is not used anywhere.
+unitunes_class_gb.BaixadorMidia	Unused		Completeness	1-high	The class is not used anywhere.
+unitunes_class_gb.GerenciadorFavoritos	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.GerenciadorCreditos	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.GerenciadorCreditos	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.GerenciadorCompras	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.GerenciadorCompras	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.DashboardVendas	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.ValidadorAcessoMidia	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.GerenciadorCadastros	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.GerenciadorCadastros	DepCycle	cyc# 2 (4 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.ValidadorSenha	DepCycle	cyc# 2 (4 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.ValidadorEmail	DepCycle	cyc# 2 (4 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.ValidadorNomes	DepCycle	cyc# 2 (4 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.VisualizadorAlbuns	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.db.VendasCRUD	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.db.VendasCRUD	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.db.CadastrosCRUD	DupOps	lerCadastro(_q_JTEWYTEe2YBJQ_6wjkcg)	Correctness	1-high	Class has duplicate operations.
+unitunes_class_gb.db.CadastrosCRUD	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.db.CadastrosCRUD	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.db.AlbunsCRUD	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.db.AlbunsCRUD	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.db.MidiasCRUD	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.db.MidiasCRUD	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.db.FavoritosCRUD	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.db.FavoritosCRUD	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.db.CarteirasCRUD	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.db.CarteirasCRUD	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.db.DatabaseConnection	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.db.DatabaseConnection	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.db.idGenerator	NotCapitalized		Naming	3-low	Class names should start with a capital letter.
+unitunes_class_gb.db.idGenerator	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.NotificadorExclusaoMidia	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.CriadorMidia	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.CriadorMidia	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.ValidadorValorMidia	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.CriadorAlbum	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.CriadorAlbum	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.ValidadorAlbum	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.GerenciadorCadastroAdmin	Unused		Completeness	1-high	The class is not used anywhere.
+unitunes_class_gb.model	Unused		Completeness	1-high	The class is not used anywhere.
+unitunes_class_gb.model	NotCapitalized		Naming	3-low	Class names should start with a capital letter.
+unitunes_class_gb.view.UniTunes	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.view.UniTunes	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.controller.DashboardVendas	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.controller.DashboardVendas	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.controller.GerenciadorAlbuns	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.controller.GerenciadorAlbuns	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.controller.GerenciadorCadastros	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.controller.GerenciadorCadastros	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.controller.GerenciadorCarteiras	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.controller.GerenciadorCarteiras	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.controller.GerenciadorFavoritos	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.controller.GerenciadorFavoritos	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.controller.GerenciadorMidias	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.controller.GerenciadorMidias	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.controller.GerenciadorVendas	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.controller.GerenciadorVendas	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.model.Album	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.model.Album	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.model.AlbumPorId	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.model.AlbumPorId	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.model.Midia	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.model.Midia	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.model.Carteira	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.model.Carteira	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.model.Cadastro	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.model.Cadastro	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.model.venda	NotCapitalized		Naming	3-low	Class names should start with a capital letter.
+unitunes_class_gb.model.venda	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.model.venda	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.model.Favorito	DupAttrNames		Correctness	1-high	The class has two or more properties with identical names.
+unitunes_class_gb.model.Favorito	DepCycle	cyc# 1 (42 nodes)	Style	2-med	The class has circular references.
+unitunes_class_gb.VendasCRUS	Unused		Completeness	1-high	The class is not used anywhere.
+unitunes_class_gb.ArrayList.parameter0	Unused		Completeness	1-high	The class is not used anywhere.
+unitunes_class_gb.ArrayList.parameter0	NotCapitalized		Naming	3-low	Class names should start with a capital letter.
+unitunes_class_gb.ArrayList	Unused		Completeness	1-high	The class is not used anywhere.
+unitunes_class_gb.	Unnamed		Completeness	1-high	Class has no name.
+unitunes_class_gb.date	Unused		Completeness	1-high	The class is not used anywhere.
+unitunes_class_gb.date	NotCapitalized		Naming	3-low	Class names should start with a capital letter.
+unitunes_class_gb.AlbunsCRUD	Unused		Completeness	1-high	The class is not used anywhere.
+unitunes_class_gb.Integer	Unused		Completeness	1-high	The class is not used anywhere.
+unitunes_class_gb.	Unnamed		Completeness	1-high	Class has no name.
+unitunes_class_gb.AlbumPorId	Unused		Completeness	1-high	The class is not used anywhere.
+unitunes_class_gb.	Unnamed		Completeness	1-high	Class has no name.
+unitunes_class_gb.	Unnamed		Completeness	1-high	Class has no name.
+unitunes_class_gb.	Unnamed		Completeness	1-high	Class has no name.
+unitunes_class_gb.Favorito	Unused		Completeness	1-high	The class is not used anywhere.
+unitunes_class_gb.	Unnamed		Completeness	1-high	Class has no name.
+unitunes_class_gb.	Unnamed		Completeness	1-high	Class has no name.
+
+
+Property
+
+Name	Rule	Value	Category	Severity	Description
+unitunes_class_gb.ExcluidorCadastros.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.Album.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.Midia.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.Midia.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.Midia.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.Academico.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.Academico.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.Academico.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.Academico.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.Academico.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.Academico.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.Academico.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.Administrador.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.Administrador.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.Administrador.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.ComprovanteVenda.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.ComprovanteVenda.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.ComprovanteVenda.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.Favoritos.FavoritosAPI	Capitalized		Naming	3-low	Attribute names should start with a lowercase letter.
+unitunes_class_gb.ExcluidorMidias.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.ExcluidorMidias.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.GerenciadorMidia.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.GerenciadorMidia.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.GerenciadorMidia.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.GerenciadorMidia.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.GerenciadorFavoritos.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.GerenciadorCreditos.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.GerenciadorCreditos.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.GerenciadorCompras.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.GerenciadorCompras.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.GerenciadorCompras.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.DashboardVendas.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.ValidadorAcessoMidia.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.GerenciadorCadastros.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.GerenciadorCadastros.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.GerenciadorCadastros.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.ValidadorSenha.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.ValidadorEmail.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.ValidadorNomes.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.VisualizadorAlbuns.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.VendasCRUD.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.VendasCRUD.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.VendasCRUD.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.VendasCRUD.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.CadastrosCRUD.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.CadastrosCRUD.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.CadastrosCRUD.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.AlbunsCRUD.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.AlbunsCRUD.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.AlbunsCRUD.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.AlbunsCRUD.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.MidiasCRUD.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.MidiasCRUD.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.MidiasCRUD.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.FavoritosCRUD.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.FavoritosCRUD.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.FavoritosCRUD.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.CarteirasCRUD.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.CarteirasCRUD.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.CarteirasCRUD.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.DatabaseConnection.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.DatabaseConnection.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.DatabaseConnection.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.DatabaseConnection.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.DatabaseConnection.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.DatabaseConnection.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.db.idGenerator.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.NotificadorExclusaoMidia.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.CriadorMidia.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.CriadorMidia.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.CriadorMidia.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.CriadorMidia.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.ValidadorValorMidia.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.CriadorAlbum.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.CriadorAlbum.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.CriadorAlbum.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.ValidadorAlbum.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.view.UniTunes.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.view.UniTunes.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.view.UniTunes.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.view.UniTunes.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.view.UniTunes.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.view.UniTunes.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.view.UniTunes.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.view.UniTunes.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.view.UniTunes.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.view.UniTunes.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.view.UniTunes.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.view.UniTunes.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.view.UniTunes.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.view.UniTunes.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.view.UniTunes.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.view.UniTunes.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.view.UniTunes.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.view.UniTunes.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.view.UniTunes.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.DashboardVendas.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.DashboardVendas.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.DashboardVendas.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.DashboardVendas.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorAlbuns.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorAlbuns.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorAlbuns.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorAlbuns.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorAlbuns.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorAlbuns.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorAlbuns.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorCadastros.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorCadastros.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorCadastros.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorCadastros.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorCadastros.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorCarteiras.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorCarteiras.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorCarteiras.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorCarteiras.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorFavoritos.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorFavoritos.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorFavoritos.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorFavoritos.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorMidias.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorMidias.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorMidias.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorMidias.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorMidias.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorMidias.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorVendas.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorVendas.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorVendas.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorVendas.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorVendas.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorVendas.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorVendas.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.controller.GerenciadorVendas.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.Album.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.Album.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.Album.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.Album.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.AlbumPorId.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.AlbumPorId.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.Midia.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.Midia.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.Midia.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.Midia.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.Midia.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.Carteira.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.Carteira.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.Carteira.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.Cadastro.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.Cadastro.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.Cadastro.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.Cadastro.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.Cadastro.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.venda.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.venda.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.venda.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.venda.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.venda.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.venda.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.venda.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.Favorito.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.Favorito.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.Favorito.	Unnamed		Completeness	1-high	The attribute has no name.
+unitunes_class_gb.model.Favorito.	Unnamed		Completeness	1-high	The attribute has no name.
+
+
+Operation
+
+Name	Rule	Value	Category	Severity	Description
+unitunes_class_gb.ComprovanteVenda.getValorTotal	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.ComprovanteVenda.getNomeComprador	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.ComprovanteVenda.getNomeVendedor	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.ComprovanteVenda.getData	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.ComprovanteVenda.getDescricao	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.ValidadorAcessoMidia.isAcessoLivre	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.ValidadorAcessoMidia.isMidiaAdquirida	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.GerenciadorCadastros.criarCadastro	LongParList	#par: 5	Style	2-med	The operation has a long parameter list with five or more parameters.
+unitunes_class_gb.ValidadorSenha.isSenhaValida	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.ValidadorEmail.isEmailValido	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.ValidadorNomes.isNomeValido	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.db.VendasCRUD.adicionarVenda	LongParList	#par: 6	Style	2-med	The operation has a long parameter list with five or more parameters.
+unitunes_class_gb.db.CadastrosCRUD.adicionarCadastro	LongParList	#par: 5	Style	2-med	The operation has a long parameter list with five or more parameters.
+unitunes_class_gb.db.AlbunsCRUD.criarAlbum	LongParList	#par: 6	Style	2-med	The operation has a long parameter list with five or more parameters.
+unitunes_class_gb.db.MidiasCRUD.criarMidia	LongParList	#par: 7	Style	2-med	The operation has a long parameter list with five or more parameters.
+unitunes_class_gb.db.DatabaseConnection.getConnection	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.db.idGenerator.IdGenerator	Capitalized		Naming	3-low	Operation names should start with a lower case letter.
+unitunes_class_gb.db.idGenerator.getNextCadastroId	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.db.idGenerator.getNextMidiaId	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.db.idGenerator.getNextAlbumId	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.db.idGenerator.getNextVendaId	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.ValidadorValorMidia.isValorValido	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.ValidadorAlbum.isAlbumValido	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.controller.GerenciadorAlbuns.getAlbunsRecentes	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.controller.GerenciadorAlbuns.getAlbunsNovos	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.controller.GerenciadorAlbuns.getTodosAlbuns	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.controller.GerenciadorCadastros.criarCadastro	LongParList	#par: 5	Style	2-med	The operation has a long parameter list with five or more parameters.
+unitunes_class_gb.controller.GerenciadorFavoritos.getFavoritos	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.controller.GerenciadorMidias.getMidiasAdquiridas	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.controller.GerenciadorMidias.getMidiasLivreAcesso	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.controller.GerenciadorMidias.criarMidia	LongParList	#par: 6	Style	2-med	The operation has a long parameter list with five or more parameters.
+unitunes_class_gb.controller.GerenciadorVendas.getComprasRealizadas	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Album.getIdAlbum	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Album.getCriador	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Album.getQtdeMidias	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Album.getIdMidia	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Album.getNome	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Album.getData	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.AlbumPorId.getIdAlbum	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.AlbumPorId.getCriador	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.AlbumPorId.getQtdeMidias	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.AlbumPorId.getNome	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Midia.getIdMidia	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Midia.getNome	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Midia.getNomeCriadores	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Midia.getCategoria	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Midia.getValor	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Midia.getInfoCategoria	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Midia.getDescricao	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Midia.getDataCriacao	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Midia.isLivreAcesso	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Midia.getCriadorMidia	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Cadastro.getIdCadastro	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Cadastro.getEmail	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Cadastro.getUsuario	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Cadastro.getNome	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Cadastro.getIsAcademico	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.venda.Venda	Capitalized		Naming	3-low	Operation names should start with a lower case letter.
+unitunes_class_gb.model.venda.getIdVenda	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.venda.getValor	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.venda.getData	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.venda.getComprador	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.venda.getVendedor	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.venda.getIdMidiaVendida	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Favorito.getIdCadastro	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+unitunes_class_gb.model.Favorito.getIdMidia	Query		Style	2-med	The operation name indicates a query, but it is not marked as a query.
+
+
+Parameter
+
+Name	Rule	Value	Category	Severity	Description
+unitunes_class_gb.ExcluidorCadastros.excluirCadastro.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.ComprovanteVenda.getValorTotal.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.ComprovanteVenda.getNomeComprador.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.ComprovanteVenda.getNomeVendedor.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.ComprovanteVenda.getData.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.ComprovanteVenda.getDescricao.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.Favoritos.adicionarFavorito.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.Favoritos.visualizarFavorito.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.Favoritos.atualizarFavorito.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.Favoritos.removerFavorito.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.ExcluidorMidias.excluirMidia.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.Usuario.operation40.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.GerenciadorMidia.visualizarMidia.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.GerenciadorMidia.comprarMidia.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.GerenciadorMidia.baixarMidia.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.GerenciadorMidia.reproduzirMidia.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.GerenciadorMidia.buscarMidia.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.GerenciadorFavoritos.adicionarFavorito.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.GerenciadorFavoritos.visualizarFavorito.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.GerenciadorFavoritos.atualizarFavorito.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.GerenciadorFavoritos.removerFavorito.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.GerenciadorCreditos.adicionarCredito.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.GerenciadorCreditos.retirarCredito.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.GerenciadorCreditos.consultarCreditos.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.GerenciadorCompras.transferir10%admin.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.GerenciadorCompras.transferir90%vendedor.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.GerenciadorCompras.emitirComprovante.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.GerenciadorCompras.adicionarVenda.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.DashboardVendas.consultarVendas.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.DashboardVendas.consultarValorTotalVendido.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.ValidadorAcessoMidia.isAcessoLivre.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.ValidadorAcessoMidia.isMidiaAdquirida.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.GerenciadorCadastros.criarCadastro.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.GerenciadorCadastros.recuperarSenha.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.GerenciadorCadastros.autenticar.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.ValidadorSenha.isSenhaValida.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.ValidadorEmail.isEmailValido.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.ValidadorNomes.isNomeValido.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.VisualizadorAlbuns.visualizarAlbunsRecentes.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.VisualizadorAlbuns.visualizarAlbunsNovos.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.VisualizadorAlbuns.visualizarTodosAlbuns.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.VendasCRUD.VendasCRUD.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.VendasCRUD.adicionarVenda.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.VendasCRUD.lerTodasVendas.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.VendasCRUD.lerVenda.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.CadastrosCRUD.CadastrosCRUD.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.CadastrosCRUD.lerCadastro.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.CadastrosCRUD.lerCadastro.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.CadastrosCRUD.lerCadastro.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.CadastrosCRUD.adicionarCadastro.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.CadastrosCRUD.lerTodosCadastros.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.CadastrosCRUD.excluirCadastro.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.AlbunsCRUD.AlbunsCRUD.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.AlbunsCRUD.lerTodosAlbuns.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.AlbunsCRUD.criarAlbum.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.MidiasCRUD.MidiasCRUD.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.MidiasCRUD.excluirMidia.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.MidiasCRUD.lerMidia.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.MidiasCRUD.lerTodasMidias.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.MidiasCRUD.criarMidia.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.FavoritosCRUD.FavoritosCRUD.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.FavoritosCRUD.lerTodosFavoritos.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.FavoritosCRUD.excluirFavorito.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.FavoritosCRUD.adicionarFavorito.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.CarteirasCRUD.CarteirasCRUD.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.CarteirasCRUD.atualizarSaldo.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.CarteirasCRUD.lerCarteira.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.DatabaseConnection.DatabaseConnection.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.DatabaseConnection.getConnection.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.idGenerator.IdGenerator.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.idGenerator.getNextCadastroId.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.idGenerator.getNextMidiaId.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.idGenerator.getNextAlbumId.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.db.idGenerator.getNextVendaId.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.NotificadorExclusaoMidia.notificar.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.CriadorMidia.criarMidia.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.ValidadorValorMidia.isValorValido.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.CriadorAlbum.criarAlbum.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.ValidadorAlbum.isAlbumValido.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.DashboardVendas.DashboardVendas.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.DashboardVendas.consultarTotalVendido.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.DashboardVendas.consultarVendas.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorAlbuns.GerenciadorAlbuns.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorAlbuns.criarAlbuns.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorAlbuns.getAlbunsRecentes.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorAlbuns.getAlbunsNovos.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorAlbuns.getTodosAlbuns.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorCadastros.GerenciadorCadastros.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorCadastros.autenticar.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorCadastros.criarCadastro.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorCadastros.lerTodosCadastros.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorCadastros.existeCadastro.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorCadastros.excluirCadastro.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorCadastros.lerCadastro.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorCarteiras.GerenciadorCarteiras.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorCarteiras.adicionarCreditos.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorCarteiras.retirarCreditos.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorCarteiras.consultarCreditos.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorCarteiras.possuiSaldo.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorFavoritos.GerenciadorFavoritos.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorFavoritos.adicionarFavorito.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorFavoritos.excluirFavorito.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorFavoritos.getFavoritos.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorMidias.GerenciadorMidias.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorMidias.excluirMidias.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorMidias.lerTodasMidias.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorMidias.existeMidia.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorMidias.lerMidia.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorMidias.buscar.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorMidias.getMidiasAdquiridas.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorMidias.getMidiasLivreAcesso.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorMidias.criarMidia.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorVendas.GerenciadorVendas.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorVendas.getComprasRealizadas.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.controller.GerenciadorVendas.realizarVenda.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Album.getIdAlbum.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Album.setIdAlbum.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Album.getCriador.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Album.setCriador.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Album.getQtdeMidias.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Album.setQtdeMidias.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Album.getIdMidia.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Album.setIdMidia.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Album.getNome.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Album.setNome.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Album.getData.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Album.setData.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.AlbumPorId.AlbumPorId.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.AlbumPorId.getIdAlbum.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.AlbumPorId.setIdAlbum.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.AlbumPorId.getCriador.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.AlbumPorId.setCriador.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.AlbumPorId.getQtdeMidias.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.AlbumPorId.setQtdeMidias.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.AlbumPorId.addMidia.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.AlbumPorId.getNome.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.AlbumPorId.setNome.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.AlbumPorId.setData.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Midia.Midia.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Midia.getIdMidia.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Midia.getNome.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Midia.setNome.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Midia.getNomeCriadores.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Midia.setNomeCriadores.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Midia.getCategoria.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Midia.setCategoria.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Midia.getValor.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Midia.setValor.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Midia.getInfoCategoria.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Midia.setInfoCategoria.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Midia.getDescricao.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Midia.setDescricao.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Midia.getDataCriacao.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Midia.setDataCriacao.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Midia.isLivreAcesso.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Midia.setLivreAcesso.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Midia.setImagem.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Midia.setConteudo.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Midia.getCriadorMidia.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Midia.setCriadorMidia.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Carteira.Carteira.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Carteira.setIdCarteira.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Carteira.setDono.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Carteira.setSaldo.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Cadastro.Cadastro.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Cadastro.setIdCadastro.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Cadastro.getIdCadastro.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Cadastro.getEmail.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Cadastro.setEmail.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Cadastro.setSenha.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Cadastro.getUsuario.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Cadastro.setUsuario.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Cadastro.getNome.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Cadastro.setNome.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Cadastro.getIsAcademico.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Cadastro.setIsAcademico.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.venda.Venda.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.venda.setIdVenda.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.venda.getIdVenda.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.venda.getValor.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.venda.setValor.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.venda.getData.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.venda.setData.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.venda.getComprador.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.venda.setComprador.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.venda.getVendedor.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.venda.setVendedor.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.venda.getIdMidiaVendida.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.venda.setIdMidiaVendida.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.venda.setDescricao.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Favorito.getIdCadastro.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Favorito.setIdCadastro.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Favorito.getIdMidia.	Unnamed		Completeness	1-high	Parameter has no name.
+unitunes_class_gb.model.Favorito.setIdMidia.	Unnamed		Completeness	1-high	Parameter has no name.
+
+
+Package
+
+Name	Rule	Value	Category	Severity	Description
+unitunes_class_gb.db	DepCycle	cyc# 1 (4 nodes)	Style	1-high	The package has circular dependencies to other packages.
+unitunes_class_gb.db	SDP1	unitunes_class_gb.model	Style	2-med	Package violates the Stable-Dependencies Principle (SDP).
+unitunes_class_gb.db	SDP1	unitunes_class_gb.controller	Style	2-med	Package violates the Stable-Dependencies Principle (SDP).
+unitunes_class_gb.view	DepCycle	cyc# 1 (4 nodes)	Style	1-high	The package has circular dependencies to other packages.
+unitunes_class_gb.view	SDP1	unitunes_class_gb.controller	Style	2-med	Package violates the Stable-Dependencies Principle (SDP).
+unitunes_class_gb.controller	DepCycle	cyc# 1 (4 nodes)	Style	1-high	The package has circular dependencies to other packages.
+unitunes_class_gb.model	DepCycle	cyc# 1 (4 nodes)	Style	1-high	The package has circular dependencies to other packages.
+unitunes_class_gb.model	SDP1	unitunes_class_gb.view	Style	2-med	Package violates the Stable-Dependencies Principle (SDP).
+unitunes_class_gb.model	SDP1	unitunes_class_gb.controller	Style	2-med	Package violates the Stable-Dependencies Principle (SDP).
+unitunes_class_gb.PrimitiveTypes	Capitalization	PrimitiveTypes	Naming	3-low	Package name has upper case letters.
