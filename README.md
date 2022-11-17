@@ -21,9 +21,9 @@ Violações no design do GB: [[txt]](https://github.com/augustostahlschmidt/unit
 
 Estatísticas descritivas do design do GB: [[txt]](https://github.com/augustostahlschmidt/unitunes/blob/main/artefatos/SDMetrics/descriptive_statistics.txt) [[html]](https://htmlpreview.github.io/?https://github.com/augustostahlschmidt/unitunes/blob/main/artefatos/SDMetrics/descriptive_statistics.html)
 
-Gráficos (histogramas) das métricas do design do GB: [[html]](https://htmlpreview.github.io/?https://github.com/augustostahlschmidt/unitunes/blob/main/artefatos/SDMetrics/metrics_histograms/metrics_histograms.html)
+Gráficos (histogramas) das métricas do design do GB: [[html]](https://github.com/augustostahlschmidt/unitunes/blob/main/artefatos/SDMetrics/metrics_histograms/metrics_histograms.html) [[preview]](https://htmlpreview.github.io/?https://github.com/augustostahlschmidt/unitunes/blob/main/artefatos/SDMetrics/metrics_histograms/metrics_histograms.html)
 
-Gráficos (kiviat) das classes do design do GB: [[html]](https://htmlpreview.github.io/?https://github.com/augustostahlschmidt/unitunes/blob/main/artefatos/SDMetrics/kiviat_graphs/kiviat_graphs.html)
+Gráficos (kiviat) das classes do design do GB: [[html]](https://github.com/augustostahlschmidt/unitunes/blob/main/artefatos/SDMetrics/kiviat_graphs/kiviat_graphs.html) [[preview]](https://htmlpreview.github.io/?https://github.com/augustostahlschmidt/unitunes/blob/main/artefatos/SDMetrics/kiviat_graphs/kiviat_graphs.html)
 
 ## Diagrama de classes final
 
