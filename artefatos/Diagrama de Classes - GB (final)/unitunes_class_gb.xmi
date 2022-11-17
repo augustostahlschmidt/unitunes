@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
+  <uml:Model name="unitunes_class_gb" xmi:id="_q_IroWYTEe2YBJQ_6wjkcg">
+    <packagedElement name="ExcluidorCadastros" xmi:id="_q_JSsGYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute name="adminCadastroUI_API" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSsWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="cadastroCRUD" type="_q_J58WYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSsmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LIWWYTEe2YBJQ_6wjkcg" name="" type="_q_JS1mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSs2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedOperation name="excluirCadastro" visibility="public" xmi:id="_q_JStGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JStWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="CarteiraCreditos" xmi:id="_q_JStmYTEe2YBJQ_6wjkcg" xmi:type="uml:Class"/>
+    <packagedElement name="Album" xmi:id="_q_JSt2YTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute name="qtdeMidias" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSuGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="midias" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSuWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LISmYTEe2YBJQ_6wjkcg" name="" type="_q_J6iWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSumYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+    </packagedElement>
+    <packagedElement name="Midia" xmi:id="_q_JSu2YTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute name="isLivreAcesso" type="_q_LIZGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSvGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="valor" type="_q_LIZmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSvWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="nome" type="_q_LIZWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSvmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="descricao" type="_q_LIZWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSv2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="imagem" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSwGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="nomeCriadores" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSwWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="conteudo" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSwmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="dataCriacao" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSw2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="categoria" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSxGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LIUmYTEe2YBJQ_6wjkcg" name="" type="_q_J6emYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSxWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LIXGYTEe2YBJQ_6wjkcg" name="" type="_q_JTF2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSxmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LIXWYTEe2YBJQ_6wjkcg" name="" type="_q_J6emYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSx2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+    </packagedElement>
+    <packagedElement name="Academico" xmi:id="_q_JSyGYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute name="gerenciadorMidia" type="_q_JTF2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSyWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="gerenciadorCreditos" type="_q_JTPWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSymYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="gerenciadorFavoritos" type="_q_JTMWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSy2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="visualizadorAlbuns" type="_q_J502YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSzGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="criadorMidia" type="_q_J6emYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSzWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="criadorAlbum" type="_q_J6iWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSzmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LISWYTEe2YBJQ_6wjkcg" name="" type="_q_JS3mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JSz2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute aggregation="composite" association="_q_LITGYTEe2YBJQ_6wjkcg" name="" type="_q_JTF2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS0GYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute aggregation="composite" association="_q_LIVGYTEe2YBJQ_6wjkcg" name="" type="_q_JTMWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS0WYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute aggregation="composite" association="_q_LIVWYTEe2YBJQ_6wjkcg" name="" type="_q_J6iWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS0mYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute aggregation="composite" association="_q_LIWGYTEe2YBJQ_6wjkcg" name="" type="_q_J6emYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS02YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute aggregation="composite" association="_q_LIW2YTEe2YBJQ_6wjkcg" name="" type="_q_J502YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS1GYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute aggregation="composite" association="_q_LIXmYTEe2YBJQ_6wjkcg" name="" type="_q_JTPWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS1WYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+    </packagedElement>
+    <packagedElement name="Administrador" xmi:id="_q_JS1mYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <generalization general="_q_JSyGYTEe2YBJQ_6wjkcg" xmi:id="_q_JS12YTEe2YBJQ_6wjkcg" xmi:type="uml:Generalization"/>
+      <ownedAttribute name="excluidorMidia" type="_q_JS_GYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS2GYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="exlcluidorCadastros" type="_q_JSsGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS2WYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="dashboardVendas" type="_q_JTW2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS2mYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute aggregation="composite" association="_q_LIV2YTEe2YBJQ_6wjkcg" name="" type="_q_JTW2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS22YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute aggregation="composite" association="_q_LIWWYTEe2YBJQ_6wjkcg" name="" type="_q_JSsGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS3GYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute aggregation="composite" association="_q_LIWmYTEe2YBJQ_6wjkcg" name="" type="_q_JS_GYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS3WYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+    </packagedElement>
+    <packagedElement name="ComprovanteVenda" xmi:id="_q_JS3mYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute name="descricao" type="_q_LIZWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS32YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="valorTotal" type="_q_LIZmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS4GYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="data" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS4WYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="nomeComprador" type="_q_LIZWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS4mYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="nomeVendedor" type="_q_LIZWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS42YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LISWYTEe2YBJQ_6wjkcg" name="" type="_q_JSyGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS5GYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LIS2YTEe2YBJQ_6wjkcg" name="" type="_q_JTS2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS5WYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LIX2YTEe2YBJQ_6wjkcg" name="" type="_q_JS3mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS5mYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LIX2YTEe2YBJQ_6wjkcg" name="venda" type="_q_JS3mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS52YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedOperation name="getValorTotal" visibility="public" xmi:id="_q_JS6GYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIZmYTEe2YBJQ_6wjkcg" xmi:id="_q_JS6WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="getNomeComprador" visibility="public" xmi:id="_q_JS6mYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIZWYTEe2YBJQ_6wjkcg" xmi:id="_q_JS62YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="getNomeVendedor" visibility="public" xmi:id="_q_JS7GYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIZWYTEe2YBJQ_6wjkcg" xmi:id="_q_JS7WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="getData" visibility="public" xmi:id="_q_JS7mYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JS72YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="getDescricao" visibility="public" xmi:id="_q_JS8GYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIZWYTEe2YBJQ_6wjkcg" xmi:id="_q_JS8WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="Favoritos" xmi:id="_q_JS8mYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute name="FavoritosAPI" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS82YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedOperation name="adicionarFavorito" visibility="public" xmi:id="_q_JS9GYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_JS9WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="visualizarFavorito" visibility="public" xmi:id="_q_JS9mYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_JS92YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="atualizarFavorito" visibility="public" xmi:id="_q_JS-GYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_JS-WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="removerFavorito" visibility="public" xmi:id="_q_JS-mYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_JS-2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="ExcluidorMidias" xmi:id="_q_JS_GYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute name="adminMidiaUI_API" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS_WYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="midiaCRUD" type="_q_J6HmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS_mYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="notificadorExclusaoMidia" type="_q_J6dGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JS_2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute aggregation="composite" association="_q_LIUGYTEe2YBJQ_6wjkcg" name="" type="_q_J6dGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTAGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LIWmYTEe2YBJQ_6wjkcg" name="" type="_q_JS1mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTAWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedOperation name="excluirMidia" visibility="public" xmi:id="_q_JTAmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTA2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="Musica" xmi:id="_q_JTBGYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <generalization general="_q_JSu2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTBWYTEe2YBJQ_6wjkcg" xmi:type="uml:Generalization"/>
+      <ownedAttribute name="duracao" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTBmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+    </packagedElement>
+    <packagedElement name="Livro" xmi:id="_q_JTB2YTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <generalization general="_q_JSu2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTCGYTEe2YBJQ_6wjkcg" xmi:type="uml:Generalization"/>
+      <ownedAttribute name="qtdePaginas" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTCWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+    </packagedElement>
+    <packagedElement name="Video" xmi:id="_q_JTCmYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <generalization general="_q_JSu2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTC2YTEe2YBJQ_6wjkcg" xmi:type="uml:Generalization"/>
+      <ownedAttribute name="duracao" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTDGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+    </packagedElement>
+    <packagedElement name="Podcast" xmi:id="_q_JTDWYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <generalization general="_q_JSu2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTDmYTEe2YBJQ_6wjkcg" xmi:type="uml:Generalization"/>
+      <ownedAttribute name="duracao" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTD2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+    </packagedElement>
+    <packagedElement name="Minutos" xmi:id="_q_JTEGYTEe2YBJQ_6wjkcg" xmi:type="uml:Class"/>
+    <packagedElement name="String" xmi:id="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:type="uml:Class"/>
+    <packagedElement name="Usuario" xmi:id="_q_JTEmYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedOperation name="operation40" visibility="public" xmi:id="_q_JTE2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_JTFGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="BuscadorMidia" xmi:id="_q_JTFWYTEe2YBJQ_6wjkcg" xmi:type="uml:Class"/>
+    <packagedElement name="ReprodutorMidia" xmi:id="_q_JTFmYTEe2YBJQ_6wjkcg" xmi:type="uml:Class"/>
+    <packagedElement name="GerenciadorMidia" xmi:id="_q_JTF2YTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute name="consumidorMidiaUI_API" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTGGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="validadorAcessoMidia" type="_q_JTZ2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTGWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="midiaCRUD" type="_q_J6HmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTGmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="gerenciadorCompras" type="_q_JTS2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTG2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LITGYTEe2YBJQ_6wjkcg" name="" type="_q_JSyGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTHGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute aggregation="composite" association="_q_LIU2YTEe2YBJQ_6wjkcg" name="" type="_q_JTS2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTHWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LIXGYTEe2YBJQ_6wjkcg" name="" type="_q_JSu2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTHmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute aggregation="composite" association="_q_LIYGYTEe2YBJQ_6wjkcg" name="" type="_q_JTZ2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTH2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedOperation name="visualizarMidia" visibility="public" xmi:id="_q_JTIGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTIWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="midia" type="_q_JSu2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTImYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="comprarMidia" visibility="public" xmi:id="_q_JTI2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTJGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="midia" type="_q_JSu2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTJWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="baixarMidia" visibility="public" xmi:id="_q_JTJmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTJ2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="midia" type="_q_JSu2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTKGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="reproduzirMidia" visibility="public" xmi:id="_q_JTKWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTKmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="midia" type="_q_JSu2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTK2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="buscarMidia" visibility="public" xmi:id="_q_JTLGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTLWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="args" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTLmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="CompradorMidia" xmi:id="_q_JTL2YTEe2YBJQ_6wjkcg" xmi:type="uml:Class"/>
+    <packagedElement name="BaixadorMidia" xmi:id="_q_JTMGYTEe2YBJQ_6wjkcg" xmi:type="uml:Class"/>
+    <packagedElement name="GerenciadorFavoritos" xmi:id="_q_JTMWYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute name="favoritosUI_API" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTMmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="favoritosCRUD" type="_q_J6NGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTM2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LIVGYTEe2YBJQ_6wjkcg" name="" type="_q_JSyGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTNGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedOperation name="adicionarFavorito" visibility="public" xmi:id="_q_JTNWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTNmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="visualizarFavorito" visibility="public" xmi:id="_q_JTN2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTOGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="atualizarFavorito" visibility="public" xmi:id="_q_JTOWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTOmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="removerFavorito" visibility="public" xmi:id="_q_JTO2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTPGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="GerenciadorCreditos" xmi:id="_q_JTPWYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute name="carteiraCreditosUI_API" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTPmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="pagamentoAPI" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTP2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="creditosCRUD" type="_q_J58WYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTQGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="creditos" type="_q_LIZmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTQWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LITmYTEe2YBJQ_6wjkcg" name="" type="_q_JTS2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTQmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LIXmYTEe2YBJQ_6wjkcg" name="" type="_q_JSyGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTQ2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedOperation name="adicionarCredito" visibility="public" xmi:id="_q_JTRGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTRWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="valor" type="_q_LIZmYTEe2YBJQ_6wjkcg" xmi:id="_q_JTRmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="retirarCredito" visibility="public" xmi:id="_q_JTR2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTSGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="consultarCreditos" visibility="public" xmi:id="_q_JTSWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTSmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="GerenciadorCompras" xmi:id="_q_JTS2YTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute name="midiasAdquiridas" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTTGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="vendasCRUD" type="_q_J53mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTTWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LIS2YTEe2YBJQ_6wjkcg" name="" type="_q_JS3mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTTmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LITmYTEe2YBJQ_6wjkcg" name="" type="_q_JTPWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTT2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LIU2YTEe2YBJQ_6wjkcg" name="" type="_q_JTF2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTUGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedOperation name="transferir10%admin" visibility="public" xmi:id="_q_JTUWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTUmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="administradorLegal" type="_q_JS1mYTEe2YBJQ_6wjkcg" xmi:id="_q_JTU2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="transferir90%vendedor" visibility="public" xmi:id="_q_JTVGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTVWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="vendedor" type="_q_JSyGYTEe2YBJQ_6wjkcg" xmi:id="_q_JTVmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="emitirComprovante" visibility="public" xmi:id="_q_JTV2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_JS3mYTEe2YBJQ_6wjkcg" xmi:id="_q_JTWGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="adicionarVenda" visibility="public" xmi:id="_q_JTWWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTWmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="DashboardVendas" xmi:id="_q_JTW2YTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute name="adminDashboardUI_API" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTXGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="vendasCRUD" type="_q_J53mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTXWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LIV2YTEe2YBJQ_6wjkcg" name="" type="_q_JS1mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTXmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedOperation name="consultarVendas" visibility="public" xmi:id="_q_JTX2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTYGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="inicio" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTYWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="fim" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTYmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="consultarValorTotalVendido" visibility="public" xmi:id="_q_JTY2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIZmYTEe2YBJQ_6wjkcg" xmi:id="_q_JTZGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="inicio" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTZWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="fim" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTZmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="ValidadorAcessoMidia" xmi:id="_q_JTZ2YTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute association="_q_LIYGYTEe2YBJQ_6wjkcg" name="" type="_q_JTF2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTaGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedOperation name="isAcessoLivre" visibility="public" xmi:id="_q_JTaWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIZGYTEe2YBJQ_6wjkcg" xmi:id="_q_JTamYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="midia" type="_q_JSu2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTa2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="isMidiaAdquirida" visibility="public" xmi:id="_q_JTbGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIZGYTEe2YBJQ_6wjkcg" xmi:id="_q_JTbWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="midia" type="_q_JSu2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTbmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="GerenciadorCadastros" xmi:id="_q_JTb2YTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute name="cadastroUI_API" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTcGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="validadorSenha" type="_q_J5xGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTcWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="validadorEmail" type="_q_J5yWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTcmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="validadorNomes" type="_q_J5zmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTc2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="cadastrosCRUD" type="_q_J58WYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTdGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute aggregation="composite" association="_q_LITWYTEe2YBJQ_6wjkcg" name="" type="_q_J5zmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTdWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute aggregation="composite" association="_q_LIT2YTEe2YBJQ_6wjkcg" name="" type="_q_J5yWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTdmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute aggregation="composite" association="_q_LIUWYTEe2YBJQ_6wjkcg" name="" type="_q_J5xGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_JTd2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedOperation name="criarCadastro" visibility="public" xmi:id="_q_JTeGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_JTeWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="primeiroNome" type="_q_LIZWYTEe2YBJQ_6wjkcg" xmi:id="_q_JTemYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="ultimoNome" type="_q_LIZWYTEe2YBJQ_6wjkcg" xmi:id="_q_JTe2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="email" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTfGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="senha" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTfWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="confirmacaoSenha" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTfmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="recuperarSenha" visibility="public" xmi:id="_q_JTf2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_JTgGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="email" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_JTgWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="autenticar" visibility="public" xmi:id="_q_J5wGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_J5wWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="emai" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J5wmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="senha" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J5w2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="ValidadorSenha" xmi:id="_q_J5xGYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute association="_q_LIUWYTEe2YBJQ_6wjkcg" name="" type="_q_JTb2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J5xWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedOperation name="isSenhaValida" visibility="public" xmi:id="_q_J5xmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIZGYTEe2YBJQ_6wjkcg" xmi:id="_q_J5x2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="senha" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J5yGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="ValidadorEmail" xmi:id="_q_J5yWYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute association="_q_LIT2YTEe2YBJQ_6wjkcg" name="" type="_q_JTb2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J5ymYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedOperation name="isEmailValido" visibility="public" xmi:id="_q_J5y2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIZGYTEe2YBJQ_6wjkcg" xmi:id="_q_J5zGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="email" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J5zWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="ValidadorNomes" xmi:id="_q_J5zmYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute association="_q_LITWYTEe2YBJQ_6wjkcg" name="" type="_q_JTb2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J5z2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedOperation name="isNomeValido" visibility="public" xmi:id="_q_J50GYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIZGYTEe2YBJQ_6wjkcg" xmi:id="_q_J50WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="nome" type="_q_LIZWYTEe2YBJQ_6wjkcg" xmi:id="_q_J50mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="VisualizadorAlbuns" xmi:id="_q_J502YTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute name="albumUI_API" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J51GYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="albumCRUD" type="_q_J6DWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J51WYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LIW2YTEe2YBJQ_6wjkcg" name="" type="_q_JSyGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J51mYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedOperation name="visualizarAlbunsRecentes" visibility="public" xmi:id="_q_J512YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J52GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="visualizarAlbunsNovos" visibility="public" xmi:id="_q_J52WYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J52mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+      <ownedOperation name="visualizarTodosAlbuns" visibility="public" xmi:id="_q_J522YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J53GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="db" xmi:id="_q_J53WYTEe2YBJQ_6wjkcg" xmi:type="uml:Package">
+      <packagedElement name="VendasCRUD" xmi:id="_q_J53mYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute association="_q_KhV2YTEe2YBJQ_6wjkcg" name="" type="_q_KhPmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J532YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_J6amYTEe2YBJQ_6wjkcg" name="" type="_q_KiQmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J54GYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_KhY2YTEe2YBJQ_6wjkcg" name="" type="_q_J6xmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J54WYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_J6b2YTEe2YBJQ_6wjkcg" name="" type="_q_J6UWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J54mYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedOperation name="VendasCRUD" visibility="public" xmi:id="_q_J542YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_J55GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="adicionarVenda" visibility="public" xmi:id="_q_J55WYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J55mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="valor" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J552YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="data" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J56GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="vendedor" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J56WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idMidiaVendida" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J56mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="descricao" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_J562YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="comprador" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J57GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="lerTodasVendas" visibility="public" xmi:id="_q_J57WYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIKmYTEe2YBJQ_6wjkcg" xmi:id="_q_J57mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="lerVenda" visibility="public" xmi:id="_q_J572YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIKWYTEe2YBJQ_6wjkcg" xmi:id="_q_J58GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement name="CadastrosCRUD" xmi:id="_q_J58WYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute association="_q_KhZGYTEe2YBJQ_6wjkcg" name="" type="_q_Kg0GYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J58mYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_J6cWYTEe2YBJQ_6wjkcg" name="" type="_q_KiGGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J582YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_J6cmYTEe2YBJQ_6wjkcg" name="" type="_q_J6UWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J59GYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedOperation name="CadastrosCRUD" visibility="public" xmi:id="_q_J59WYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_J59mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="lerCadastro" visibility="public" xmi:id="_q_J592YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_KiGGYTEe2YBJQ_6wjkcg" xmi:id="_q_J5-GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="email" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_J5-WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="senha" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_J5-mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="lerCadastro" visibility="public" xmi:id="_q_J5-2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_KiGGYTEe2YBJQ_6wjkcg" xmi:id="_q_J5_GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="email" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_J5_WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="lerCadastro" visibility="public" xmi:id="_q_J5_mYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_J6mWYTEe2YBJQ_6wjkcg" xmi:id="_q_J5_2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="id" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6AGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="adicionarCadastro" visibility="public" xmi:id="_q_J6AWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_J6AmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="email" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_J6A2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="senha" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_J6BGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="usuario" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_J6BWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="nome" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_J6BmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="academico" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6B2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="lerTodosCadastros" visibility="public" xmi:id="_q_J6CGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIOWYTEe2YBJQ_6wjkcg" xmi:id="_q_J6CWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="excluirCadastro" visibility="public" xmi:id="_q_J6CmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_J6C2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="email" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_J6DGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement name="AlbunsCRUD" xmi:id="_q_J6DWYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute association="_q_KhYmYTEe2YBJQ_6wjkcg" name="" type="_q_J61mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6DmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_LIImYTEe2YBJQ_6wjkcg" name="" type="_q_Khb2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6D2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_J6bWYTEe2YBJQ_6wjkcg" name="" type="_q_Khb2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6EGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_J6c2YTEe2YBJQ_6wjkcg" name="" type="_q_J6UWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6EWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedOperation name="AlbunsCRUD" visibility="public" xmi:id="_q_J6EmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_J6E2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="lerTodosAlbuns" visibility="public" xmi:id="_q_J6FGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIRGYTEe2YBJQ_6wjkcg" xmi:id="_q_J6FWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="criarAlbum" visibility="public" xmi:id="_q_J6FmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_J6F2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idAlbum" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6GGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="nome" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_J6GWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idCriador" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6GmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="dataCriacao" type="_q_LILmYTEe2YBJQ_6wjkcg" xmi:id="_q_J6G2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="qtdeMidias" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6HGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idMidia" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6HWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement name="MidiasCRUD" xmi:id="_q_J6HmYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute association="_q_KhVWYTEe2YBJQ_6wjkcg" name="" type="_q_KhGWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6H2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_J6aGYTEe2YBJQ_6wjkcg" name="" type="_q_J6UWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6IGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_J6bmYTEe2YBJQ_6wjkcg" name="" type="_q_KhvWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6IWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedOperation name="MidiasCRUD" visibility="public" xmi:id="_q_J6ImYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_J6I2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="excluirMidia" visibility="public" xmi:id="_q_J6JGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_J6JWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idMidia" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6JmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="lerMidia" visibility="public" xmi:id="_q_J6J2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_KhvWYTEe2YBJQ_6wjkcg" xmi:id="_q_J6KGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="lerTodasMidias" visibility="public" xmi:id="_q_J6KWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIPGYTEe2YBJQ_6wjkcg" xmi:id="_q_J6KmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="criarMidia" visibility="public" xmi:id="_q_J6K2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_J6LGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idCriador" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6LWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="nomeCriador" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_J6LmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="nomeMidia" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_J6L2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="descricaoMidia" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_J6MGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="valor" type="_q_LIZmYTEe2YBJQ_6wjkcg" xmi:id="_q_J6MWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="livreAcesso" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6MmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="data" type="_q_LILmYTEe2YBJQ_6wjkcg" xmi:id="_q_J6M2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement name="FavoritosCRUD" xmi:id="_q_J6NGYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute aggregation="composite" association="_q_J6a2YTEe2YBJQ_6wjkcg" name="" type="_q_LIDWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6NWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_KhZWYTEe2YBJQ_6wjkcg" name="" type="_q_KhBmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6NmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_J6cGYTEe2YBJQ_6wjkcg" name="" type="_q_J6UWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6N2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedOperation name="FavoritosCRUD" visibility="public" xmi:id="_q_J6OGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_J6OWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="lerTodosFavoritos" visibility="public" xmi:id="_q_J6OmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIQGYTEe2YBJQ_6wjkcg" xmi:id="_q_J6O2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="excluirFavorito" visibility="public" xmi:id="_q_J6PGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_J6PWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idCadastro" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6PmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idMidia" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6P2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="adicionarFavorito" visibility="public" xmi:id="_q_J6QGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_J6QWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idCadastro" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6QmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idMidia" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6Q2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement name="CarteirasCRUD" xmi:id="_q_J6RGYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute association="_q_KhU2YTEe2YBJQ_6wjkcg" name="" type="_q_Kg72YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6RWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_J6aWYTEe2YBJQ_6wjkcg" name="" type="_q_KiBmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6RmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_J6bGYTEe2YBJQ_6wjkcg" name="" type="_q_J6UWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6R2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedOperation name="CarteirasCRUD" visibility="public" xmi:id="_q_J6SGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_J6SWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="atualizarSaldo" visibility="public" xmi:id="_q_J6SmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_J6S2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idDono" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6TGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="saldo" type="_q_LIZmYTEe2YBJQ_6wjkcg" xmi:id="_q_J6TWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="lerCarteira" visibility="public" xmi:id="_q_J6TmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_KiBmYTEe2YBJQ_6wjkcg" xmi:id="_q_J6T2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idDono" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6UGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement name="DatabaseConnection" xmi:id="_q_J6UWYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute association="_q_J6aGYTEe2YBJQ_6wjkcg" name="" type="_q_J6HmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6UmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_J6bGYTEe2YBJQ_6wjkcg" name="" type="_q_J6RGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6U2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_J6b2YTEe2YBJQ_6wjkcg" name="" type="_q_J53mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6VGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_J6cGYTEe2YBJQ_6wjkcg" name="" type="_q_J6NGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6VWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_J6cmYTEe2YBJQ_6wjkcg" name="" type="_q_J58WYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6VmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_J6c2YTEe2YBJQ_6wjkcg" name="" type="_q_J6DWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6V2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedOperation name="DatabaseConnection" visibility="public" xmi:id="_q_J6WGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_J6WWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getConnection" visibility="public" xmi:id="_q_J6WmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIR2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6W2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement name="idGenerator" xmi:id="_q_J6XGYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute association="_q_KhWGYTEe2YBJQ_6wjkcg" name="" type="_q_J61mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6XWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedOperation name="IdGenerator" visibility="public" xmi:id="_q_J6XmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_J6X2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getNextCadastroId" visibility="public" xmi:id="_q_J6YGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6YWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getNextMidiaId" visibility="public" xmi:id="_q_J6YmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6Y2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getNextAlbumId" visibility="public" xmi:id="_q_J6ZGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6ZWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getNextVendaId" visibility="public" xmi:id="_q_J6ZmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6Z2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement memberEnd="_q_J6UmYTEe2YBJQ_6wjkcg _q_J6IGYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6aGYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_KiC2YTEe2YBJQ_6wjkcg _q_J6RmYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6aWYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_LH5WYTEe2YBJQ_6wjkcg _q_J54GYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6amYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_LIEWYTEe2YBJQ_6wjkcg _q_J6NWYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6a2YTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J6U2YTEe2YBJQ_6wjkcg _q_J6R2YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6bGYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_KheWYTEe2YBJQ_6wjkcg _q_J6EGYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6bWYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_KhzGYTEe2YBJQ_6wjkcg _q_J6IWYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6bmYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J6VGYTEe2YBJQ_6wjkcg _q_J54mYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6b2YTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J6VWYTEe2YBJQ_6wjkcg _q_J6N2YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6cGYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_KiImYTEe2YBJQ_6wjkcg _q_J582YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6cWYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J6VmYTEe2YBJQ_6wjkcg _q_J59GYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6cmYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J6V2YTEe2YBJQ_6wjkcg _q_J6EWYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6c2YTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    </packagedElement>
+    <packagedElement name="NotificadorExclusaoMidia" xmi:id="_q_J6dGYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute name="notificadorAPI" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6dWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LIUGYTEe2YBJQ_6wjkcg" name="" type="_q_JS_GYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6dmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedOperation name="notificar" visibility="public" xmi:id="_q_J6d2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6eGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="Usuario" type="_q_JSyGYTEe2YBJQ_6wjkcg" xmi:id="_q_J6eWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="CriadorMidia" xmi:id="_q_J6emYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute name="criadorMidiaUI_API" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6e2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="midiaCRUD" type="_q_J6HmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6fGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="validadorValorMidia" type="_q_J6hGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6fWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LIUmYTEe2YBJQ_6wjkcg" name="" type="_q_JSu2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6fmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute aggregation="composite" association="_q_LIVmYTEe2YBJQ_6wjkcg" name="" type="_q_J6hGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6f2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LIWGYTEe2YBJQ_6wjkcg" name="" type="_q_JSyGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6gGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LIXWYTEe2YBJQ_6wjkcg" name="" type="_q_JSu2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6gWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedOperation name="criarMidia" visibility="public" xmi:id="_q_J6gmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6g2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="ValidadorValorMidia" xmi:id="_q_J6hGYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute association="_q_LIVmYTEe2YBJQ_6wjkcg" name="" type="_q_J6emYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6hWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedOperation name="isValorValido" visibility="public" xmi:id="_q_J6hmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIZGYTEe2YBJQ_6wjkcg" xmi:id="_q_J6h2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="valor" type="_q_LIZmYTEe2YBJQ_6wjkcg" xmi:id="_q_J6iGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="CriadorAlbum" xmi:id="_q_J6iWYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute name="criadorAlbumUI_API" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6imYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="albumCRUD" type="_q_J6DWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6i2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute name="validadorAlbum" type="_q_J6kmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6jGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute aggregation="composite" association="_q_LISGYTEe2YBJQ_6wjkcg" name="" type="_q_J6kmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6jWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LISmYTEe2YBJQ_6wjkcg" name="" type="_q_JSt2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6jmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedAttribute association="_q_LIVWYTEe2YBJQ_6wjkcg" name="" type="_q_JSyGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6j2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedOperation name="criarAlbum" visibility="public" xmi:id="_q_J6kGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6kWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="ValidadorAlbum" xmi:id="_q_J6kmYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedAttribute association="_q_LISGYTEe2YBJQ_6wjkcg" name="" type="_q_J6iWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6k2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      <ownedOperation name="isAlbumValido" visibility="public" xmi:id="_q_J6lGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+        <ownedParameter direction="return" type="_q_LIZGYTEe2YBJQ_6wjkcg" xmi:id="_q_J6lWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        <ownedParameter name="qtdeMidias" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J6lmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="GerenciadorCadastroAdmin" xmi:id="_q_J6l2YTEe2YBJQ_6wjkcg" xmi:type="uml:Class"/>
+    <packagedElement name="model" xmi:id="_q_J6mGYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <nestedClassifier name="Cadastro" xmi:id="_q_J6mWYTEe2YBJQ_6wjkcg" xmi:type="uml:Class"/>
+    </packagedElement>
+    <packagedElement name="view" xmi:id="_q_J6mmYTEe2YBJQ_6wjkcg" xmi:type="uml:Package">
+      <packagedElement name="UniTunes" xmi:id="_q_J6m2YTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute name="keyboard" type="_q_LIQ2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6nGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="isLoggedIn" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6nWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="gerenciadorCadastros" type="_q_Kg0GYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6nmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="cadastroLogado" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6n2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="isAcademico" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6oGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="gerenciadorMidia" type="_q_KhGWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6oWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="dashboardVendas" type="_q_JTW2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6omYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="gerenciadorCarteiras" type="_q_Kg72YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6o2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="gerenciadorVendas" type="_q_KhPmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6pGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="gerenciadorFavoritos" type="_q_JTMWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6pWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="gerenciadorAlbuns" type="_q_J61mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6pmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_J6umYTEe2YBJQ_6wjkcg" name="" type="_q_KhPmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6p2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_KhWmYTEe2YBJQ_6wjkcg" name="" type="_q_Kg0GYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6qGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_J6u2YTEe2YBJQ_6wjkcg" name="" type="_q_J6xmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6qWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_KhXGYTEe2YBJQ_6wjkcg" name="" type="_q_J6xmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6qmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_J6vGYTEe2YBJQ_6wjkcg" name="" type="_q_KhBmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6q2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_KhXWYTEe2YBJQ_6wjkcg" name="" type="_q_KhPmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6rGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_J6vWYTEe2YBJQ_6wjkcg" name="" type="_q_KiGGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6rWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_J6vmYTEe2YBJQ_6wjkcg" name="" type="_q_KhGWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6rmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_KhYWYTEe2YBJQ_6wjkcg" name="" type="_q_KhGWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6r2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_J6v2YTEe2YBJQ_6wjkcg" name="" type="_q_KhvWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6sGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_LIIWYTEe2YBJQ_6wjkcg" name="" type="_q_LIDWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6sWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_J6wGYTEe2YBJQ_6wjkcg" name="" type="_q_J61mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6smYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_J6wWYTEe2YBJQ_6wjkcg" name="" type="_q_Kg0GYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6s2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_KhZmYTEe2YBJQ_6wjkcg" name="" type="_q_KhBmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6tGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_J6wmYTEe2YBJQ_6wjkcg" name="" type="_q_KhmGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6tWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_KhZ2YTEe2YBJQ_6wjkcg" name="" type="_q_J61mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6tmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_KhaGYTEe2YBJQ_6wjkcg" name="" type="_q_Kg0GYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6t2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_J6w2YTEe2YBJQ_6wjkcg" name="" type="_q_KiQmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6uGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_J6xGYTEe2YBJQ_6wjkcg" name="" type="_q_LIDWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6uWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+      </packagedElement>
+      <packagedElement memberEnd="_q_KhQWYTEe2YBJQ_6wjkcg _q_J6p2YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6umYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J6yWYTEe2YBJQ_6wjkcg _q_J6qWYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6u2YTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_KhCWYTEe2YBJQ_6wjkcg _q_J6q2YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6vGYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_KiIGYTEe2YBJQ_6wjkcg _q_J6rWYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6vWYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_KhHmYTEe2YBJQ_6wjkcg _q_J6rmYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6vmYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_Khy2YTEe2YBJQ_6wjkcg _q_J6sGYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6v2YTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J63WYTEe2YBJQ_6wjkcg _q_J6smYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6wGYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_Kg1WYTEe2YBJQ_6wjkcg _q_J6s2YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6wWYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_KhoGYTEe2YBJQ_6wjkcg _q_J6tWYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6wmYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_LH6WYTEe2YBJQ_6wjkcg _q_J6uGYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6w2YTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_LIE2YTEe2YBJQ_6wjkcg _q_J6uWYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_J6xGYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    </packagedElement>
+    <packagedElement name="controller" xmi:id="_q_J6xWYTEe2YBJQ_6wjkcg" xmi:type="uml:Package">
+      <packagedElement name="DashboardVendas" xmi:id="_q_J6xmYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute name="crud" type="_q_J53mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6x2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhVGYTEe2YBJQ_6wjkcg" name="" type="_q_KiQmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6yGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_J6u2YTEe2YBJQ_6wjkcg" name="" type="_q_J6m2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6yWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhXGYTEe2YBJQ_6wjkcg" name="" type="_q_J6m2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6ymYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhY2YTEe2YBJQ_6wjkcg" name="" type="_q_J53mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J6y2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedOperation name="DashboardVendas" visibility="public" xmi:id="_q_J6zGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_J6zWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="consultarTotalVendido" visibility="public" xmi:id="_q_J6zmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIZmYTEe2YBJQ_6wjkcg" xmi:id="_q_J6z2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="inicio" type="_q_LILmYTEe2YBJQ_6wjkcg" xmi:id="_q_J60GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="fim" type="_q_LILmYTEe2YBJQ_6wjkcg" xmi:id="_q_J60WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="consultarVendas" visibility="public" xmi:id="_q_J60mYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIKmYTEe2YBJQ_6wjkcg" xmi:id="_q_J602YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="inicio" type="_q_LILmYTEe2YBJQ_6wjkcg" xmi:id="_q_J61GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="fim" type="_q_LILmYTEe2YBJQ_6wjkcg" xmi:id="_q_J61WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement name="GerenciadorAlbuns" visibility="private" xmi:id="_q_J61mYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute name="crud" type="_q_J6DWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J612YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhWGYTEe2YBJQ_6wjkcg" name="" type="_q_J6XGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J62GYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhXmYTEe2YBJQ_6wjkcg" name="" type="_q_KhmGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J62WYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_LIIGYTEe2YBJQ_6wjkcg" name="" type="_q_Khb2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J62mYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhYGYTEe2YBJQ_6wjkcg" name="" type="_q_Khb2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J622YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhYmYTEe2YBJQ_6wjkcg" name="" type="_q_J6DWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J63GYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_J6wGYTEe2YBJQ_6wjkcg" name="" type="_q_J6m2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J63WYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhZ2YTEe2YBJQ_6wjkcg" name="" type="_q_J6m2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_J63mYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedOperation name="GerenciadorAlbuns" visibility="public" xmi:id="_q_J632YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_J64GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="criarAlbuns" visibility="public" xmi:id="_q_J64WYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J64mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="nome" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_J642YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idCriador" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_J65GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="dataCriacao" type="_q_LILmYTEe2YBJQ_6wjkcg" xmi:id="_q_J65WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="midias" type="_q_LIMWYTEe2YBJQ_6wjkcg" xmi:id="_q_J65mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getAlbunsRecentes" visibility="public" xmi:id="_q_J652YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LINWYTEe2YBJQ_6wjkcg" xmi:id="_q_J66GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getAlbunsNovos" visibility="public" xmi:id="_q_J66WYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LINWYTEe2YBJQ_6wjkcg" xmi:id="_q_J66mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getTodosAlbuns" visibility="public" xmi:id="_q_J662YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LINWYTEe2YBJQ_6wjkcg" xmi:id="_q_J67GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement name="GerenciadorCadastros" xmi:id="_q_Kg0GYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute name="crud" type="_q_J58WYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_Kg0WYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhUmYTEe2YBJQ_6wjkcg" name="" type="_q_KiGGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_Kg0mYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhWmYTEe2YBJQ_6wjkcg" name="" type="_q_J6m2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_Kg02YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhZGYTEe2YBJQ_6wjkcg" name="" type="_q_J58WYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_Kg1GYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_J6wWYTEe2YBJQ_6wjkcg" name="" type="_q_J6m2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_Kg1WYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhaGYTEe2YBJQ_6wjkcg" name="" type="_q_J6m2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_Kg1mYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedOperation name="GerenciadorCadastros" visibility="public" xmi:id="_q_Kg12YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kg2GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="autenticar" visibility="public" xmi:id="_q_Kg2WYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIOGYTEe2YBJQ_6wjkcg" xmi:id="_q_Kg2mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="email" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_Kg22YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="senha" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_Kg3GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="criarCadastro" visibility="public" xmi:id="_q_Kg3WYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kg3mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="email" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_Kg32YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="senha" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_Kg4GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="usuario" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_Kg4WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="nome" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_Kg4mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="academico" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_Kg42YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="lerTodosCadastros" visibility="public" xmi:id="_q_Kg5GYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIOWYTEe2YBJQ_6wjkcg" xmi:id="_q_Kg5WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="existeCadastro" visibility="public" xmi:id="_q_Kg5mYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIZGYTEe2YBJQ_6wjkcg" xmi:id="_q_Kg52YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="email" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_Kg6GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="excluirCadastro" visibility="public" xmi:id="_q_Kg6WYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kg6mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="email" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_Kg62YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="lerCadastro" visibility="public" xmi:id="_q_Kg7GYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIOGYTEe2YBJQ_6wjkcg" xmi:id="_q_Kg7WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="id" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_Kg7mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement name="GerenciadorCarteiras" xmi:id="_q_Kg72YTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute name="crud" type="_q_J6RGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_Kg8GYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhU2YTEe2YBJQ_6wjkcg" name="" type="_q_J6RGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_Kg8WYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_LIHmYTEe2YBJQ_6wjkcg" name="" type="_q_KiBmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_Kg8mYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_KhWWYTEe2YBJQ_6wjkcg" name="" type="_q_KhPmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_Kg82YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhaWYTEe2YBJQ_6wjkcg" name="" type="_q_KiBmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_Kg9GYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedOperation name="GerenciadorCarteiras" visibility="public" xmi:id="_q_Kg9WYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kg9mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="adicionarCreditos" visibility="public" xmi:id="_q_Kg92YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kg-GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idDono" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_Kg-WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="valor" type="_q_LIZmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kg-mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="retirarCreditos" visibility="public" xmi:id="_q_Kg-2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kg_GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idDono" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_Kg_WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="valor" type="_q_LIZmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kg_mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="consultarCreditos" visibility="public" xmi:id="_q_Kg_2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIZmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhAGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idDono" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhAWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="possuiSaldo" visibility="public" xmi:id="_q_KhAmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIZGYTEe2YBJQ_6wjkcg" xmi:id="_q_KhA2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idCadastro" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhBGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="valor" type="_q_LIZmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhBWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement name="GerenciadorFavoritos" xmi:id="_q_KhBmYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute name="crud" type="_q_J6NGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhB2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhW2YTEe2YBJQ_6wjkcg" name="" type="_q_LIDWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhCGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_J6vGYTEe2YBJQ_6wjkcg" name="" type="_q_J6m2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhCWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhZWYTEe2YBJQ_6wjkcg" name="" type="_q_J6NGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhCmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhZmYTEe2YBJQ_6wjkcg" name="" type="_q_J6m2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhC2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedOperation name="GerenciadorFavoritos" visibility="public" xmi:id="_q_KhDGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhDWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="adicionarFavorito" visibility="public" xmi:id="_q_KhDmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhD2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idCadastro" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhEGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idMidia" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhEWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="excluirFavorito" visibility="public" xmi:id="_q_KhEmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhE2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idCadastro" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhFGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idMidia" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhFWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getFavoritos" visibility="public" xmi:id="_q_KhFmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIQGYTEe2YBJQ_6wjkcg" xmi:id="_q_KhF2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idCadastro" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhGGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement name="GerenciadorMidias" xmi:id="_q_KhGWYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute name="crud" type="_q_J6HmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhGmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhVWYTEe2YBJQ_6wjkcg" name="" type="_q_J6HmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhG2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhVmYTEe2YBJQ_6wjkcg" name="" type="_q_KiQmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhHGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_LIH2YTEe2YBJQ_6wjkcg" name="" type="_q_KhvWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhHWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_J6vmYTEe2YBJQ_6wjkcg" name="" type="_q_J6m2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhHmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhYWYTEe2YBJQ_6wjkcg" name="" type="_q_J6m2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhH2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhbGYTEe2YBJQ_6wjkcg" name="" type="_q_KhvWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhIGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedOperation name="GerenciadorMidias" visibility="public" xmi:id="_q_KhIWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhImYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="excluirMidias" visibility="public" xmi:id="_q_KhI2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhJGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idMidia" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhJWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="lerTodasMidias" visibility="public" xmi:id="_q_KhJmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIPGYTEe2YBJQ_6wjkcg" xmi:id="_q_KhJ2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="existeMidia" visibility="public" xmi:id="_q_KhKGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIZGYTEe2YBJQ_6wjkcg" xmi:id="_q_KhKWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="id" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhKmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="lerMidia" visibility="public" xmi:id="_q_KhK2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_JSu2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhLGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="id" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhLWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="buscar" visibility="public" xmi:id="_q_KhLmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIPGYTEe2YBJQ_6wjkcg" xmi:id="_q_KhL2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="buscar" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_KhMGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getMidiasAdquiridas" visibility="public" xmi:id="_q_KhMWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIPGYTEe2YBJQ_6wjkcg" xmi:id="_q_KhMmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="comprasRealizadas" type="_q_LIKmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhM2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getMidiasLivreAcesso" visibility="public" xmi:id="_q_KhNGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIPGYTEe2YBJQ_6wjkcg" xmi:id="_q_KhNWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="criarMidia" visibility="public" xmi:id="_q_KhNmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhN2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="nomeMidia" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_KhOGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="descricaoMidia" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_KhOWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="valor" type="_q_LIZmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhOmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idCriador" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhO2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="nomeCriador" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_KhPGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="data" type="_q_LILmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhPWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement name="GerenciadorVendas" xmi:id="_q_KhPmYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute name="crud" type="_q_J53mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhP2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="gerenciadorCarteiras" type="_q_Kg72YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhQGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_J6umYTEe2YBJQ_6wjkcg" name="" type="_q_J6m2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhQWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhV2YTEe2YBJQ_6wjkcg" name="" type="_q_J53mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhQmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhWWYTEe2YBJQ_6wjkcg" name="" type="_q_Kg72YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhQ2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhXWYTEe2YBJQ_6wjkcg" name="" type="_q_J6m2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhRGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhX2YTEe2YBJQ_6wjkcg" name="" type="_q_KiQmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhRWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhamYTEe2YBJQ_6wjkcg" name="" type="_q_KiGGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhRmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_Kha2YTEe2YBJQ_6wjkcg" name="" type="_q_KhvWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhR2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_KhbWYTEe2YBJQ_6wjkcg" name="" type="_q_KiGGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhSGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedOperation name="GerenciadorVendas" visibility="public" xmi:id="_q_KhSWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhSmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getComprasRealizadas" visibility="public" xmi:id="_q_KhS2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIKmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhTGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idCadastro" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhTWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="realizarVenda" visibility="public" xmi:id="_q_KhTmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIKWYTEe2YBJQ_6wjkcg" xmi:id="_q_KhT2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="midia" type="_q_JSu2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhUGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="cadastroComprador" type="_q_LIOGYTEe2YBJQ_6wjkcg" xmi:id="_q_KhUWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement memberEnd="_q_KiH2YTEe2YBJQ_6wjkcg _q_Kg0mYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhUmYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J6RWYTEe2YBJQ_6wjkcg _q_Kg8WYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhU2YTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_LH42YTEe2YBJQ_6wjkcg _q_J6yGYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhVGYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J6H2YTEe2YBJQ_6wjkcg _q_KhG2YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhVWYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_LH5GYTEe2YBJQ_6wjkcg _q_KhHGYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhVmYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J532YTEe2YBJQ_6wjkcg _q_KhQmYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhV2YTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J6XWYTEe2YBJQ_6wjkcg _q_J62GYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhWGYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_Kg82YTEe2YBJQ_6wjkcg _q_KhQ2YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhWWYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J6qGYTEe2YBJQ_6wjkcg _q_Kg02YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhWmYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_LIEGYTEe2YBJQ_6wjkcg _q_KhCGYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhW2YTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J6qmYTEe2YBJQ_6wjkcg _q_J6ymYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhXGYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J6rGYTEe2YBJQ_6wjkcg _q_KhRGYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhXWYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_Khn2YTEe2YBJQ_6wjkcg _q_J62WYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhXmYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_LH5mYTEe2YBJQ_6wjkcg _q_KhRWYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhX2YTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_Khd2YTEe2YBJQ_6wjkcg _q_J622YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhYGYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J6r2YTEe2YBJQ_6wjkcg _q_KhH2YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhYWYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J6DmYTEe2YBJQ_6wjkcg _q_J63GYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhYmYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J54WYTEe2YBJQ_6wjkcg _q_J6y2YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhY2YTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J58mYTEe2YBJQ_6wjkcg _q_Kg1GYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhZGYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J6NmYTEe2YBJQ_6wjkcg _q_KhCmYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhZWYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J6tGYTEe2YBJQ_6wjkcg _q_KhC2YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhZmYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J6tmYTEe2YBJQ_6wjkcg _q_J63mYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhZ2YTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J6t2YTEe2YBJQ_6wjkcg _q_Kg1mYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhaGYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_KiDGYTEe2YBJQ_6wjkcg _q_Kg9GYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhaWYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_KiIWYTEe2YBJQ_6wjkcg _q_KhRmYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhamYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_KhzWYTEe2YBJQ_6wjkcg _q_KhR2YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_Kha2YTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_KhzmYTEe2YBJQ_6wjkcg _q_KhIGYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhbGYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_KiI2YTEe2YBJQ_6wjkcg _q_KhSGYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_KhbWYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    </packagedElement>
+    <packagedElement name="model" xmi:id="_q_KhbmYTEe2YBJQ_6wjkcg" xmi:type="uml:Package">
+      <packagedElement name="Album" xmi:id="_q_Khb2YTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute name="idAlbum" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhcGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="criador" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhcWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="qtdeMidias" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhcmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="nome" type="_q_JTEWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_Khc2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="idMidia" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhdGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="data" type="_q_LILmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhdWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_LIIGYTEe2YBJQ_6wjkcg" name="" type="_q_J61mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhdmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_KhYGYTEe2YBJQ_6wjkcg" name="" type="_q_J61mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_Khd2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_LIImYTEe2YBJQ_6wjkcg" name="" type="_q_J6DWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KheGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_J6bWYTEe2YBJQ_6wjkcg" name="" type="_q_J6DWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KheWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedOperation name="getIdAlbum" visibility="public" xmi:id="_q_KhemYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_Khe2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setIdAlbum" visibility="public" xmi:id="_q_KhfGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhfWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idAlbum" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhfmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getCriador" visibility="public" xmi:id="_q_Khf2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhgGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setCriador" visibility="public" xmi:id="_q_KhgWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhgmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="criador" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_Khg2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getQtdeMidias" visibility="public" xmi:id="_q_KhhGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhhWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setQtdeMidias" visibility="public" xmi:id="_q_KhhmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_Khh2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="qtdeMidias" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhiGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getIdMidia" visibility="public" xmi:id="_q_KhiWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhimYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setIdMidia" visibility="public" xmi:id="_q_Khi2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhjGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idMidia" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhjWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getNome" visibility="public" xmi:id="_q_KhjmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_Khj2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setNome" visibility="public" xmi:id="_q_KhkGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhkWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="nome" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_KhkmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getData" visibility="public" xmi:id="_q_Khk2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LILmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhlGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setData" visibility="public" xmi:id="_q_KhlWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhlmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="data" type="_q_LILmYTEe2YBJQ_6wjkcg" xmi:id="_q_Khl2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement name="AlbumPorId" xmi:id="_q_KhmGYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute name="idAlbum" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhmWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="criador" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhmmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="qtdeMidias" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_Khm2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="nome" type="_q_JTEWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhnGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="data" type="_q_LILmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhnWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="midias" type="_q_LIMWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhnmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_KhXmYTEe2YBJQ_6wjkcg" name="" type="_q_J61mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_Khn2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_J6wmYTEe2YBJQ_6wjkcg" name="" type="_q_J6m2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhoGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedOperation name="AlbumPorId" visibility="public" xmi:id="_q_KhoWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhomYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getIdAlbum" visibility="public" xmi:id="_q_Kho2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhpGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setIdAlbum" visibility="public" xmi:id="_q_KhpWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhpmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idAlbum" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_Khp2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getCriador" visibility="public" xmi:id="_q_KhqGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhqWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setCriador" visibility="public" xmi:id="_q_KhqmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_Khq2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="criador" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhrGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getQtdeMidias" visibility="public" xmi:id="_q_KhrWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhrmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setQtdeMidias" visibility="public" xmi:id="_q_Khr2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhsGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="qtdeMidias" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhsWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="addMidia" visibility="public" xmi:id="_q_KhsmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_Khs2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idMidia" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KhtGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getNome" visibility="public" xmi:id="_q_KhtWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_KhtmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setNome" visibility="public" xmi:id="_q_Kht2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhuGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="nome" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_KhuWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setData" visibility="public" xmi:id="_q_KhumYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_Khu2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="data" type="_q_LILmYTEe2YBJQ_6wjkcg" xmi:id="_q_KhvGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement name="Midia" xmi:id="_q_KhvWYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute name="idMidia" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhvmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="nome" type="_q_JTEWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_Khv2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="descricao" type="_q_JTEWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhwGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="categoria" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhwWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="infoCategoria" type="_q_LIZmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhwmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="valor" type="_q_LIZmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_Khw2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="dataCriacao" type="_q_LILmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhxGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="isLivreAcesso" type="_q_LIZGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhxWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="nomeCriadores" type="_q_JTEWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhxmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="conteudo" type="_q_JTEWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_Khx2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="imagem" type="_q_JTEWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhyGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="criadorMidia" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhyWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_LIH2YTEe2YBJQ_6wjkcg" name="" type="_q_KhGWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhymYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_J6v2YTEe2YBJQ_6wjkcg" name="" type="_q_J6m2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_Khy2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_J6bmYTEe2YBJQ_6wjkcg" name="" type="_q_J6HmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhzGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_Kha2YTEe2YBJQ_6wjkcg" name="" type="_q_KhPmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhzWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_KhbGYTEe2YBJQ_6wjkcg" name="" type="_q_KhGWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KhzmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedOperation name="Midia" visibility="public" xmi:id="_q_Khz2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh0GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getIdMidia" visibility="public" xmi:id="_q_Kh0WYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_Kh0mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getNome" visibility="public" xmi:id="_q_Kh02YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh1GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setNome" visibility="public" xmi:id="_q_Kh1WYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh1mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="nome" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh12YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getNomeCriadores" visibility="public" xmi:id="_q_Kh2GYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh2WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setNomeCriadores" visibility="public" xmi:id="_q_Kh2mYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh22YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="nomeCriadores" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh3GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getCategoria" visibility="public" xmi:id="_q_Kh3WYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_Kh3mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setCategoria" visibility="public" xmi:id="_q_Kh32YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh4GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="categoria" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_Kh4WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getValor" visibility="public" xmi:id="_q_Kh4mYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIZmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh42YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setValor" visibility="public" xmi:id="_q_Kh5GYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh5WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="valor" type="_q_LIZmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh5mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getInfoCategoria" visibility="public" xmi:id="_q_Kh52YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIZmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh6GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setInfoCategoria" visibility="public" xmi:id="_q_Kh6WYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh6mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="infoCategoria" type="_q_LIZmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh62YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getDescricao" visibility="public" xmi:id="_q_Kh7GYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh7WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setDescricao" visibility="public" xmi:id="_q_Kh7mYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh72YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="descricao" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh8GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getDataCriacao" visibility="public" xmi:id="_q_Kh8WYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LILmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh8mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setDataCriacao" visibility="public" xmi:id="_q_Kh82YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh9GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="dataCriacao" type="_q_LILmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh9WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="isLivreAcesso" visibility="public" xmi:id="_q_Kh9mYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIZGYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh92YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setLivreAcesso" visibility="public" xmi:id="_q_Kh-GYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh-WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="isLivreAcesso" type="_q_LIZGYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh-mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setImagem" visibility="public" xmi:id="_q_Kh-2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh_GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="imagem" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh_WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setConteudo" visibility="public" xmi:id="_q_Kh_mYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_Kh_2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="conteudo" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_KiAGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getCriadorMidia" visibility="public" xmi:id="_q_KiAWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KiAmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setCriadorMidia" visibility="public" xmi:id="_q_KiA2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KiBGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="criadorMidia" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KiBWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement name="Carteira" xmi:id="_q_KiBmYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute name="idCarteira" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KiB2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="dono" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KiCGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="saldo" type="_q_LIZmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KiCWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_LIHmYTEe2YBJQ_6wjkcg" name="" type="_q_Kg72YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KiCmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_J6aWYTEe2YBJQ_6wjkcg" name="" type="_q_J6RGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KiC2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_KhaWYTEe2YBJQ_6wjkcg" name="" type="_q_Kg72YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KiDGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedOperation name="Carteira" visibility="public" xmi:id="_q_KiDWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KiDmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setIdCarteira" visibility="public" xmi:id="_q_KiD2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KiEGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idCarteira" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KiEWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setDono" visibility="public" xmi:id="_q_KiEmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KiE2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="dono" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KiFGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setSaldo" visibility="public" xmi:id="_q_KiFWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KiFmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="saldo" type="_q_LIZmYTEe2YBJQ_6wjkcg" xmi:id="_q_KiF2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement name="Cadastro" xmi:id="_q_KiGGYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute name="idCadastro" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KiGWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="email" type="_q_JTEWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KiGmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="senha" type="_q_JTEWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KiG2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="usuario" type="_q_JTEWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KiHGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="nome" type="_q_JTEWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KiHWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="isAcademico" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KiHmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_KhUmYTEe2YBJQ_6wjkcg" name="" type="_q_Kg0GYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KiH2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_J6vWYTEe2YBJQ_6wjkcg" name="" type="_q_J6m2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KiIGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_KhamYTEe2YBJQ_6wjkcg" name="" type="_q_KhPmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KiIWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_J6cWYTEe2YBJQ_6wjkcg" name="" type="_q_J58WYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KiImYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_KhbWYTEe2YBJQ_6wjkcg" name="" type="_q_KhPmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KiI2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedOperation name="Cadastro" visibility="public" xmi:id="_q_KiJGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KiJWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setIdCadastro" visibility="public" xmi:id="_q_KiJmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KiJ2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idCadastro" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KiKGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getIdCadastro" visibility="public" xmi:id="_q_KiKWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KiKmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getEmail" visibility="public" xmi:id="_q_KiK2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_KiLGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setEmail" visibility="public" xmi:id="_q_KiLWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KiLmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="email" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_KiL2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setSenha" visibility="public" xmi:id="_q_KiMGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KiMWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="senha" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_KiMmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getUsuario" visibility="public" xmi:id="_q_KiM2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_KiNGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setUsuario" visibility="public" xmi:id="_q_KiNWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KiNmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="usuario" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_KiN2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getNome" visibility="public" xmi:id="_q_KiOGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_KiOWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setNome" visibility="public" xmi:id="_q_KiOmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KiO2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="nome" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_KiPGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getIsAcademico" visibility="public" xmi:id="_q_KiPWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KiPmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setIsAcademico" visibility="public" xmi:id="_q_KiP2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_KiQGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="isAcademico" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_KiQWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement name="venda" xmi:id="_q_KiQmYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute name="idVenda" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KiQ2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="valor" type="_q_LIZmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KiRGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="data" type="_q_LILmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KiRWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="comprador" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_KiRmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="vendedor" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_LH4GYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="idMidiaVendida" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_LH4WYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="descricao" type="_q_JTEWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_LH4mYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_KhVGYTEe2YBJQ_6wjkcg" name="" type="_q_J6xmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_LH42YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_KhVmYTEe2YBJQ_6wjkcg" name="" type="_q_KhGWYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_LH5GYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_J6amYTEe2YBJQ_6wjkcg" name="" type="_q_J53mYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_LH5WYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_KhX2YTEe2YBJQ_6wjkcg" name="" type="_q_KhPmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_LH5mYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_LII2YTEe2YBJQ_6wjkcg" name="" type="_q_KiQmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_LH52YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_LII2YTEe2YBJQ_6wjkcg" name="" type="_q_KiQmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_LH6GYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_J6w2YTEe2YBJQ_6wjkcg" name="" type="_q_J6m2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_LH6WYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedOperation name="Venda" visibility="public" xmi:id="_q_LH6mYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_LH62YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setIdVenda" visibility="public" xmi:id="_q_LH7GYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_LH7WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idVenda" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_LH7mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getIdVenda" visibility="public" xmi:id="_q_LH72YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_LH8GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getValor" visibility="public" xmi:id="_q_LH8WYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIZmYTEe2YBJQ_6wjkcg" xmi:id="_q_LH8mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setValor" visibility="public" xmi:id="_q_LH82YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_LH9GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="valor" type="_q_LIZmYTEe2YBJQ_6wjkcg" xmi:id="_q_LH9WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getData" visibility="public" xmi:id="_q_LH9mYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LILmYTEe2YBJQ_6wjkcg" xmi:id="_q_LH92YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setData" visibility="public" xmi:id="_q_LH-GYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_LH-WYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="data" type="_q_LILmYTEe2YBJQ_6wjkcg" xmi:id="_q_LH-mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getComprador" visibility="public" xmi:id="_q_LH-2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_LH_GYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setComprador" visibility="public" xmi:id="_q_LH_WYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_LH_mYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="comprador" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_LH_2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getVendedor" visibility="public" xmi:id="_q_LIAGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_LIAWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setVendedor" visibility="public" xmi:id="_q_LIAmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_LIA2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="vendedor" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_LIBGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getIdMidiaVendida" visibility="public" xmi:id="_q_LIBWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_LIBmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setIdMidiaVendida" visibility="public" xmi:id="_q_LIB2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_LICGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idMidiaVendida" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_LICWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setDescricao" visibility="public" xmi:id="_q_LICmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_LIC2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="descricao" type="_q_JTEWYTEe2YBJQ_6wjkcg" xmi:id="_q_LIDGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement name="Favorito" xmi:id="_q_LIDWYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+        <ownedAttribute name="idCadastro" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_LIDmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute name="idMidia" type="_q_LIY2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_LID2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_KhW2YTEe2YBJQ_6wjkcg" name="" type="_q_KhBmYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_LIEGYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_J6a2YTEe2YBJQ_6wjkcg" name="" type="_q_J6NGYTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_LIEWYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute aggregation="composite" association="_q_LIIWYTEe2YBJQ_6wjkcg" name="" type="_q_J6m2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_LIEmYTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedAttribute association="_q_J6xGYTEe2YBJQ_6wjkcg" name="" type="_q_J6m2YTEe2YBJQ_6wjkcg" visibility="private" xmi:id="_q_LIE2YTEe2YBJQ_6wjkcg" xmi:type="uml:Property"/>
+        <ownedOperation name="getIdCadastro" visibility="public" xmi:id="_q_LIFGYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_LIFWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setIdCadastro" visibility="public" xmi:id="_q_LIFmYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_LIF2YTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idCadastro" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_LIGGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="getIdMidia" visibility="public" xmi:id="_q_LIGWYTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_LIGmYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+        <ownedOperation name="setIdMidia" visibility="public" xmi:id="_q_LIG2YTEe2YBJQ_6wjkcg" xmi:type="uml:Operation">
+          <ownedParameter direction="return" type="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:id="_q_LIHGYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+          <ownedParameter name="idMidia" type="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:id="_q_LIHWYTEe2YBJQ_6wjkcg" xmi:type="uml:Parameter"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement memberEnd="_q_Kg8mYTEe2YBJQ_6wjkcg _q_KiCmYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIHmYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_KhHWYTEe2YBJQ_6wjkcg _q_KhymYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIH2YTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J62mYTEe2YBJQ_6wjkcg _q_KhdmYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIIGYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J6sWYTEe2YBJQ_6wjkcg _q_LIEmYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIIWYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_J6D2YTEe2YBJQ_6wjkcg _q_KheGYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIImYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+      <packagedElement memberEnd="_q_LH52YTEe2YBJQ_6wjkcg _q_LH6GYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LII2YTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    </packagedElement>
+    <packagedElement name="VendasCRUS" xmi:id="_q_LIJGYTEe2YBJQ_6wjkcg" xmi:type="uml:Class"/>
+    <packagedElement name="ArrayList" xmi:id="_q_LIJWYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <ownedTemplateSignature parameter="_q_LIJ2YTEe2YBJQ_6wjkcg" xmi:id="_q_LIJmYTEe2YBJQ_6wjkcg" xmi:type="uml:RedefinableTemplateSignature">
+        <ownedParameter allowSubstitutable="false" parameteredElement="_q_LIKGYTEe2YBJQ_6wjkcg" xmi:id="_q_LIJ2YTEe2YBJQ_6wjkcg" xmi:type="uml:ClassifierTemplateParameter">
+          <ownedParameteredElement name="parameter0" owningTemplateParameter="_q_LIJ2YTEe2YBJQ_6wjkcg" templateParameter="_q_LIJ2YTEe2YBJQ_6wjkcg" xmi:id="_q_LIKGYTEe2YBJQ_6wjkcg" xmi:type="uml:Class"/>
+        </ownedParameter>
+      </ownedTemplateSignature>
+    </packagedElement>
+    <packagedElement name="Venda" xmi:id="_q_LIKWYTEe2YBJQ_6wjkcg" xmi:type="uml:Class"/>
+    <packagedElement name="" xmi:id="_q_LIKmYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <templateBinding boundElement="_q_LIKmYTEe2YBJQ_6wjkcg" xmi:id="_q_LIK2YTEe2YBJQ_6wjkcg" xmi:type="uml:TemplateBinding">
+        <parameterSubstitution actual="_q_LIKWYTEe2YBJQ_6wjkcg" formal="_q_LIJ2YTEe2YBJQ_6wjkcg" templateBinding="_q_LIK2YTEe2YBJQ_6wjkcg" xmi:id="_q_LILGYTEe2YBJQ_6wjkcg" xmi:type="uml:TemplateParameterSubstitution"/>
+      </templateBinding>
+    </packagedElement>
+    <packagedElement name="date" xmi:id="_q_LILWYTEe2YBJQ_6wjkcg" xmi:type="uml:Class"/>
+    <packagedElement name="Date" xmi:id="_q_LILmYTEe2YBJQ_6wjkcg" xmi:type="uml:Class"/>
+    <packagedElement name="AlbunsCRUD" xmi:id="_q_LIL2YTEe2YBJQ_6wjkcg" xmi:type="uml:Class"/>
+    <packagedElement name="Integer" xmi:id="_q_LIMGYTEe2YBJQ_6wjkcg" xmi:type="uml:Class"/>
+    <packagedElement name="" xmi:id="_q_LIMWYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <templateBinding boundElement="_q_LIMWYTEe2YBJQ_6wjkcg" xmi:id="_q_LIMmYTEe2YBJQ_6wjkcg" xmi:type="uml:TemplateBinding">
+        <parameterSubstitution actual="_q_LIMGYTEe2YBJQ_6wjkcg" formal="_q_LIJ2YTEe2YBJQ_6wjkcg" templateBinding="_q_LIMmYTEe2YBJQ_6wjkcg" xmi:id="_q_LIM2YTEe2YBJQ_6wjkcg" xmi:type="uml:TemplateParameterSubstitution"/>
+      </templateBinding>
+    </packagedElement>
+    <packagedElement name="AlbumPorId" xmi:id="_q_LINGYTEe2YBJQ_6wjkcg" xmi:type="uml:Class"/>
+    <packagedElement name="" xmi:id="_q_LINWYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <templateBinding boundElement="_q_LINWYTEe2YBJQ_6wjkcg" xmi:id="_q_LINmYTEe2YBJQ_6wjkcg" xmi:type="uml:TemplateBinding">
+        <parameterSubstitution actual="_q_LINGYTEe2YBJQ_6wjkcg" templateBinding="_q_LINmYTEe2YBJQ_6wjkcg" xmi:id="_q_LIN2YTEe2YBJQ_6wjkcg" xmi:type="uml:TemplateParameterSubstitution"/>
+      </templateBinding>
+    </packagedElement>
+    <packagedElement name="Cadastro" xmi:id="_q_LIOGYTEe2YBJQ_6wjkcg" xmi:type="uml:Class"/>
+    <packagedElement name="" xmi:id="_q_LIOWYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <templateBinding boundElement="_q_LIOWYTEe2YBJQ_6wjkcg" xmi:id="_q_LIOmYTEe2YBJQ_6wjkcg" xmi:type="uml:TemplateBinding">
+        <parameterSubstitution actual="_q_LIOGYTEe2YBJQ_6wjkcg" formal="_q_LIJ2YTEe2YBJQ_6wjkcg" templateBinding="_q_LIOmYTEe2YBJQ_6wjkcg" xmi:id="_q_LIO2YTEe2YBJQ_6wjkcg" xmi:type="uml:TemplateParameterSubstitution"/>
+      </templateBinding>
+    </packagedElement>
+    <packagedElement name="" xmi:id="_q_LIPGYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <templateBinding boundElement="_q_LIPGYTEe2YBJQ_6wjkcg" xmi:id="_q_LIPWYTEe2YBJQ_6wjkcg" xmi:type="uml:TemplateBinding">
+        <parameterSubstitution actual="_q_JSu2YTEe2YBJQ_6wjkcg" templateBinding="_q_LIPWYTEe2YBJQ_6wjkcg" xmi:id="_q_LIPmYTEe2YBJQ_6wjkcg" xmi:type="uml:TemplateParameterSubstitution"/>
+      </templateBinding>
+    </packagedElement>
+    <packagedElement name="Favorito" xmi:id="_q_LIP2YTEe2YBJQ_6wjkcg" xmi:type="uml:Class"/>
+    <packagedElement name="" xmi:id="_q_LIQGYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <templateBinding boundElement="_q_LIQGYTEe2YBJQ_6wjkcg" xmi:id="_q_LIQWYTEe2YBJQ_6wjkcg" xmi:type="uml:TemplateBinding">
+        <parameterSubstitution actual="_q_LIP2YTEe2YBJQ_6wjkcg" templateBinding="_q_LIQWYTEe2YBJQ_6wjkcg" xmi:id="_q_LIQmYTEe2YBJQ_6wjkcg" xmi:type="uml:TemplateParameterSubstitution"/>
+      </templateBinding>
+    </packagedElement>
+    <packagedElement name="Scanner" xmi:id="_q_LIQ2YTEe2YBJQ_6wjkcg" xmi:type="uml:Class"/>
+    <packagedElement name="" xmi:id="_q_LIRGYTEe2YBJQ_6wjkcg" xmi:type="uml:Class">
+      <templateBinding boundElement="_q_LIRGYTEe2YBJQ_6wjkcg" xmi:id="_q_LIRWYTEe2YBJQ_6wjkcg" xmi:type="uml:TemplateBinding">
+        <parameterSubstitution actual="_q_JSt2YTEe2YBJQ_6wjkcg" templateBinding="_q_LIRWYTEe2YBJQ_6wjkcg" xmi:id="_q_LIRmYTEe2YBJQ_6wjkcg" xmi:type="uml:TemplateParameterSubstitution"/>
+      </templateBinding>
+    </packagedElement>
+    <packagedElement name="Connection" xmi:id="_q_LIR2YTEe2YBJQ_6wjkcg" xmi:type="uml:Class"/>
+    <packagedElement memberEnd="_q_J6k2YTEe2YBJQ_6wjkcg _q_J6jWYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LISGYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_JS5GYTEe2YBJQ_6wjkcg _q_JSz2YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LISWYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_JSumYTEe2YBJQ_6wjkcg _q_J6jmYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LISmYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_JS5WYTEe2YBJQ_6wjkcg _q_JTTmYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIS2YTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_JTHGYTEe2YBJQ_6wjkcg _q_JS0GYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LITGYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_J5z2YTEe2YBJQ_6wjkcg _q_JTdWYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LITWYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_JTQmYTEe2YBJQ_6wjkcg _q_JTT2YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LITmYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_J5ymYTEe2YBJQ_6wjkcg _q_JTdmYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIT2YTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_J6dmYTEe2YBJQ_6wjkcg _q_JTAGYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIUGYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_J5xWYTEe2YBJQ_6wjkcg _q_JTd2YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIUWYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_JSxWYTEe2YBJQ_6wjkcg _q_J6fmYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIUmYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_JTUGYTEe2YBJQ_6wjkcg _q_JTHWYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIU2YTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_JTNGYTEe2YBJQ_6wjkcg _q_JS0WYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIVGYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_J6j2YTEe2YBJQ_6wjkcg _q_JS0mYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIVWYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_J6hWYTEe2YBJQ_6wjkcg _q_J6f2YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIVmYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_JTXmYTEe2YBJQ_6wjkcg _q_JS22YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIV2YTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_J6gGYTEe2YBJQ_6wjkcg _q_JS02YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIWGYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_JSs2YTEe2YBJQ_6wjkcg _q_JS3GYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIWWYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_JTAWYTEe2YBJQ_6wjkcg _q_JS3WYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIWmYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_J51mYTEe2YBJQ_6wjkcg _q_JS1GYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIW2YTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_JSxmYTEe2YBJQ_6wjkcg _q_JTHmYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIXGYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_J6gWYTEe2YBJQ_6wjkcg _q_JSx2YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIXWYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_JTQ2YTEe2YBJQ_6wjkcg _q_JS1WYTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIXmYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_JS5mYTEe2YBJQ_6wjkcg _q_JS52YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIX2YTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement memberEnd="_q_JTaGYTEe2YBJQ_6wjkcg _q_JTH2YTEe2YBJQ_6wjkcg" name="" xmi:id="_q_LIYGYTEe2YBJQ_6wjkcg" xmi:type="uml:Association"/>
+    <packagedElement name="PrimitiveTypes" xmi:id="_q_LIYWYTEe2YBJQ_6wjkcg" xmi:type="uml:Package">
+      <packagedElement name="void" xmi:id="_q_LIYmYTEe2YBJQ_6wjkcg" xmi:type="uml:PrimitiveType"/>
+      <packagedElement name="int" xmi:id="_q_LIY2YTEe2YBJQ_6wjkcg" xmi:type="uml:PrimitiveType"/>
+      <packagedElement name="boolean" xmi:id="_q_LIZGYTEe2YBJQ_6wjkcg" xmi:type="uml:PrimitiveType"/>
+      <packagedElement name="string" xmi:id="_q_LIZWYTEe2YBJQ_6wjkcg" xmi:type="uml:PrimitiveType"/>
+      <packagedElement name="double" xmi:id="_q_LIZmYTEe2YBJQ_6wjkcg" xmi:type="uml:PrimitiveType"/>
+    </packagedElement>
+  </uml:Model>
+</xmi:XMI>
